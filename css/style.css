@@ -175,6 +175,12 @@ body:before {
 	font-family: 'Roboto', sans-serif;
 	font-weight: 400;
 }
+.about_center_line{
+	width: 250px;
+	height: 20px;
+	display: block;
+	margin: 0px auto;
+}
 /*****SMART****/
 .about_img_smart{
 	position: absolute;
@@ -493,7 +499,6 @@ footer{
 **********************************************/
 @media (max-width: 600px){
 
-
 .video_center_line{
 	display: block;
 	margin: 0px auto;
@@ -507,10 +512,10 @@ footer{
 	height:315px;
 }
 .about{
-	margin-top: 1000px;
+	margin-top: 700px;
 }
 .video_text{
-	width: 250px;
+
 	margin: 0px auto;
 	text-align: center;
 	font-family: 'Roboto', sans-serif;
@@ -518,7 +523,5 @@ footer{
 	font-size: 17px;
 	line-height: 21px;
 }
-
-
 
 }
