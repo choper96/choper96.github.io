@@ -56,9 +56,11 @@ body:before {
 	display:block; 
 	margin:50px auto -10px auto;
 }
-.main_line{
+.main_center_line{
 	display: block;
 	margin: 0px auto;
+	height: 20px;
+	 width:300px;
 }
 .main_h{
 	font-family: 'Arkhip_font', sans-serif;
@@ -121,6 +123,12 @@ body:before {
 	text-transform: uppercase;
 	text-align: center;
 }
+.video_center_line{
+	display: block;
+	margin: 0px auto;
+	height: 20px;
+	width:600px;
+}
 .video_h{
 	text-align: center;
 	text-transform: uppercase;
@@ -141,6 +149,8 @@ body:before {
 .video_video{
 	margin: 25px auto;
 	display: block;
+	width:400px;
+	height:315px;
 }
  /**********************************************
 					ABOUT
@@ -481,9 +491,25 @@ footer{
 /*********************************************
 ********************A-D-A-P-T-I-V-E***********
 **********************************************/
-@media screen and (max-height: 600px){
-	body{
-		max-width: 600px;
-	}
+@media (max-width: 600px){
+
+
+.video_center_line{
+	display: block;
+	margin: 0px auto;
+	height: 20px;
+	width: 300px;
+}
+.video_video{
+	margin: 25px auto;
+	display: block;
+	width:300px;
+	height:315px;
+}
+.about{
+	margin-top: 1000px;
+}
+
+
 
 }
