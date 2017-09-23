@@ -503,11 +503,20 @@ footer{
 .video_video{
 	margin: 25px auto;
 	display: block;
-	width:300px;
+	width:250px;
 	height:315px;
 }
 .about{
 	margin-top: 1000px;
+}
+.video_text{
+	width: 250px;
+	margin: 0px auto;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-size: 17px;
+	line-height: 21px;
 }
 
 
