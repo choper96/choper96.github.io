@@ -401,9 +401,6 @@ PORTFOLIO
 	font-weight: 300;
 	line-height: 25px;
 }
-.white_papper_wrap{
-	width: 450px
-}
 /**********************************************
 					SUBSCRIBE
 ***********************************************/
@@ -531,13 +528,14 @@ footer{
 		VIDEO
 **********************/
 .video_center_line{
-	width: 400px;
+	width: 300px;
 }
 .video_video{
-width: 330px
+width: 250px;
+height: 300px;
 }
 .video_text{
-	width: 330px;
+	width: 250px;
 }
 /*********************
 		ABOUT
@@ -549,9 +547,39 @@ width: 330px
 /*********************
 	WHITE PAPER
 **********************/
+.team{
+	margin-top: 800px;
+}
+/*********************
+	WHITE PAPER
+**********************/
 .white_papper_img{
-	border: 1px solid #fff;
-	width: 220px;
+	margin: 40px auto 0px auto;
+	width: 250px;
+}
+.white_papper_h{
+	letter-spacing:30px;
+	width: 400px;
+	margin: 50px auto 0px auto;
+	padding-left: 30px;
+	font-size: 60px;
+	text-transform: uppercase;
+	text-align: left;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+}
+.white_paper_center_line{
+	width: 300px;
+}
+.white_papper_p{
+	width: 100%;
+	margin: 25px auto 0px auto;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 20px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	line-height: 25px;
 }
 /*********************
 	SUBSCRIBE
@@ -565,13 +593,16 @@ width: 330px
 .subscribe_input{
 	width: 250px;
 	height: 50px;
-	margin: 15px 10px 10px 0px;
+	margin: 15px auto 10px auto;
 	padding-left: 70px;
+	display: block;
 }
 .subcsribe_btn{
-	display: inline-block;
-	width: 100px;
+	display: block;
+	width: 250px;
 	line-height: 49px;
+		margin: 15px auto 10px auto;
+
 }
 footer{
 	display: none;
