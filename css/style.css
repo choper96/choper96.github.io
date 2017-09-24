@@ -559,14 +559,15 @@ height: 300px;
 }
 .white_papper_h{
 	letter-spacing:30px;
-	width: 400px;
+	width: 300px;
 	margin: 50px auto 0px auto;
-	padding-left: 30px;
+	padding-left: 0px;
 	font-size: 60px;
 	text-transform: uppercase;
-	text-align: left;
+	text-align: center;
 	font-family: 'Roboto', sans-serif;
 	font-weight: 400;
+	border: 1px solid #fff
 }
 .white_paper_center_line{
 	width: 300px;
@@ -601,8 +602,7 @@ height: 300px;
 	display: block;
 	width: 250px;
 	line-height: 49px;
-		margin: 15px auto 10px auto;
-
+	margin: 15px auto 10px auto;
 }
 footer{
 	display: none;
