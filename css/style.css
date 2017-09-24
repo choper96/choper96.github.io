@@ -8,6 +8,7 @@ body{
     background-position: center;
     color:#fff;
     position: relative;
+    background-color: #000;
 }
 body:before{
 	content: '';
@@ -75,6 +76,9 @@ PORTFOLIO
 	margin: 0px auto;
 	height: 20px;
 	width: 300px;
+}
+.main_invis_p_large{
+	display: none;
 }
 .main_h{
 	font-family: 'Arkhip_font', sans-serif;
@@ -527,6 +531,9 @@ footer{
 /*********************
 		VIDEO
 **********************/
+.video {
+	margin-top:150px;
+}
 .video_center_line{
 	width: 300px;
 }
@@ -545,7 +552,7 @@ height: 300px;
 	display: none
 }
 /*********************
-	WHITE PAPER
+	   TEAM
 **********************/
 .team{
 	margin-top: 800px;
@@ -562,12 +569,8 @@ height: 300px;
 	width: 300px;
 	margin: 50px auto 0px auto;
 	padding-left: 0px;
-	font-size: 60px;
 	text-transform: uppercase;
 	text-align: center;
-	font-family: 'Roboto', sans-serif;
-	font-weight: 400;
-	border: 1px solid #fff
 }
 .white_paper_center_line{
 	width: 300px;
@@ -585,6 +588,15 @@ height: 300px;
 /*********************
 	SUBSCRIBE
 **********************/
+.element{
+	display: none;
+}
+.main_invis_p_large {
+	display: inline-block;
+}
+.typed-cursor{
+	display: none;
+}
 .subscribe_center_line{
 	display: block;
 	margin: 0px auto;
@@ -605,8 +617,17 @@ height: 300px;
 	margin: 15px auto 10px auto;
 }
 footer{
-	display: none;
+	text-align: center;
 }
+.footer_stoeres{
+	display: inline-block;
+	margin: 0px 10px 0px 10px;
+}
+.footer_h{
+	margin-top: 40px;
+}
+
+
 
 
 

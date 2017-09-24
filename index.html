@@ -66,7 +66,7 @@
     <div class="row">
       <div class="col-xs-1"></div>
       <div class="col-xs-10">
-         <p class="main_txt "><span  class="main_txt element"></span></p>
+         <div class="main_txt "><p class="main_invis_p_large">Platform for convenient handling of crypto currency</p><span class="element"></span></div>
          <h1 class="main_timer_txt">До окончания ICO осталось</h1>
       </div>
       <div class="col-xs-1"></div>
@@ -308,34 +308,34 @@
 <footer>
   <div class="container">
     <div class="row">
-      <div class="col-xs-3">
+      <div class="col-sm-3 col-xs-12">
         <h6 class="footer_paymon_word">paymon</h6>
         <p class="footer_p_lh">Copyright © 2017 Paymon. <br>All rights reserved.</p>
       </div>
-      <div class="col-xs-3">
+      <div class="col-sm-3 col-xs-12>
         <h4 class="footer_h">languages</h4>
         <p class="footer_p_lh"><a class="footer_links" href="">English</a><br><a class="footer_links" href="">Russian</a></p>
       </div>
-      <div class="col-xs-3">
+      <div class="col-sm-3 col-xs-12">
         <h4 class="footer_h">company</h4>
         <p class="footer_p_lh"><a class="footer_links" href="">Terms &amp Conditions</a><br><a class="footer_links" href="">Privacy Policy</a><br><a class="footer_links" href="">White paper</a></p>
       </div>
-      <div class="col-xs-3">
-        <h4 class="footer_h">contacts</h4>
-        <p>Email:press@paymon.ru</p>
-        <p class="footer_sosialnetworks">
-          <a class="footer_links" href=""><i class="icon-facebook-circled"></i></a>
-          <a class="footer_links" href=""><i class="icon-twitter-circled"></i></a>
-          <a class="footer_links" href=""><i class="icon-telegram"></i></a>
-        </p>
-<div class="footer_wrap_stores">
-  <div class="footer_stoeres">
-    <a class="footer_links" href=""><img width="90px" src="img/apple png.png" alt=""></a>
-  </div>
-  <div class="footer_stoeres">
-      <a class="footer_links" href=""><img width="90px" src="img/google png.png" alt=""></a>
-  </div>
-</div>
+      <div class="col-sm-3 col-xs-12">
+        <div class="footer_contacts">
+          <h4 class="footer_h">contacts</h4>
+          <p>Email:press@paymon.ru</p>
+          <p class="footer_sosialnetworks">
+            <a class="footer_links" href=""><i class="icon-facebook-circled"></i></a>
+            <a class="footer_links" href=""><i class="icon-twitter-circled"></i></a>
+            <a class="footer_links" href=""><i class="icon-telegram"></i></a>
+          </p>
+        </div>
+          <div class="footer_stoeres">
+            <a class="footer_links" href=""><img width="90px" src="img/apple png.png" alt=""></a>
+          </div>
+          <div class="footer_stoeres">
+              <a class="footer_links" href=""><img width="90px" src="img/google png.png" alt=""></a>
+          </div>
       </div>
 
     </div>
@@ -357,7 +357,12 @@ var typed = new Typed('.element', {
 <script media="screen" src="https://yastatic.net/jquery/3.1.1/jquery.min.js"></script> 
 <script src="js/wow.min.js"></script>
 <script>
-  new WOW().init();
+  new WOW(
+  {
+    mobile:false;
+  }
+    ).init();
+  }
 </script>
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
