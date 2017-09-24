@@ -1,4 +1,4 @@
-body {
+body{
 	background-image: url(../img/fon3.jpg) ;
     -moz-background-size: cover;
     -webkit-background-size: cover;
@@ -9,7 +9,7 @@ body {
     color:#fff;
     position: relative;
 }
-body:before {
+body:before{
 	content: '';
 	position: absolute;
 	top:0;
@@ -19,7 +19,21 @@ body:before {
 	background-color: rgba(0, 0, 0, .5);
 	z-index: -1;
 }
-
+/***********
+PORTFOLIO
+************/
+.grid {
+	display: grid;
+}
+.portfolio-item {
+	height: 550px;
+	background-size: cover;
+	background-position: center center;
+	text-align: center;
+	align-content: center;
+	color: #fff;
+	position: relative;
+}
 /**********************************************
 					MAIN
 ***********************************************/
@@ -60,7 +74,7 @@ body:before {
 	display: block;
 	margin: 0px auto;
 	height: 20px;
-	 width:300px;
+	width: 300px;
 }
 .main_h{
 	font-family: 'Arkhip_font', sans-serif;
@@ -123,11 +137,12 @@ body:before {
 	text-transform: uppercase;
 	text-align: center;
 }
+
 .video_center_line{
 	display: block;
 	margin: 0px auto;
 	height: 20px;
-	width:600px;
+	width: 550px;
 }
 .video_h{
 	text-align: center;
@@ -149,8 +164,6 @@ body:before {
 .video_video{
 	margin: 25px auto;
 	display: block;
-	width:400px;
-	height:315px;
 }
  /**********************************************
 					ABOUT
@@ -176,10 +189,9 @@ body:before {
 	font-weight: 400;
 }
 .about_center_line{
-	width: 250px;
-	height: 20px;
 	display: block;
 	margin: 0px auto;
+	height: 20px;
 }
 /*****SMART****/
 .about_img_smart{
@@ -326,6 +338,12 @@ body:before {
 	font-family: 'Roboto', sans-serif;
 	font-weight: 400;
 }
+.team_center_line{
+	display: block;
+	margin: 0px auto;
+	height: 20px;
+	width: 250px;
+}
 .team_txt_names{
 	font-family: 'Roboto', sans-serif;
 	font-weight: 400;
@@ -367,6 +385,12 @@ body:before {
 	font-family: 'Roboto', sans-serif;
 	font-weight: 400;
 }
+.white_paper_center_line{
+	display: block;
+	margin: 0px auto;
+	height: 20px;
+	width: 400px;
+}
 .white_papper_p{
 	width: 350px;
 	margin: 25px auto 0px auto;
@@ -392,6 +416,12 @@ body:before {
 	margin: 0px auto;
 	font-family: 'Roboto', sans-serif;
 	font-weight: 400;
+}
+.subscribe_center_line{
+	display: block;
+	margin: 0px auto;
+	height: 20px;
+	width: 550px;
 }
 .subscribe_input{
 	background-color: #000;
@@ -423,8 +453,6 @@ body:before {
 	color: #000;
 	text-decoration: none;
 	display: inline-block;
-	width: 200px;
-	height: 50px;
 	border:1px solid #fff;
 	text-transform: uppercase;
 	line-height: 49px;
@@ -494,34 +522,86 @@ footer{
 	color: #fff;
 	text-decoration: none;
 }
+
 /*********************************************
 ********************A-D-A-P-T-I-V-E***********
 **********************************************/
-@media (max-width: 600px){
-
+@media screen and (max-width: 600px){
+/*********************
+		VIDEO
+**********************/
 .video_center_line{
+	width: 400px;
+}
+.video_video{
+width: 330px
+}
+.video_text{
+	width: 330px;
+}
+/*********************
+		ABOUT
+**********************/
+.about{
+	padding-top: 780px;
+	display: none
+}
+/*********************
+	WHITE PAPER
+**********************/
+.white_papper_img{
+	border: 1px solid #fff;
+	width: 220px;
+}
+/*********************
+	SUBSCRIBE
+**********************/
+.subscribe_center_line{
 	display: block;
 	margin: 0px auto;
 	height: 20px;
 	width: 300px;
 }
-.video_video{
-	margin: 25px auto;
-	display: block;
-	width:250px;
-	height:315px;
+.subscribe_input{
+	width: 250px;
+	height: 50px;
+	margin: 15px 10px 10px 0px;
+	padding-left: 70px;
 }
-.about{
-	margin-top: 700px;
+.subcsribe_btn{
+	display: inline-block;
+	width: 100px;
+	line-height: 49px;
 }
-.video_text{
-
-	margin: 0px auto;
-	text-align: center;
-	font-family: 'Roboto', sans-serif;
-	font-weight: 300;
-	font-size: 17px;
-	line-height: 21px;
+footer{
+	display: none;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
+
+
