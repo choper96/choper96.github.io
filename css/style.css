@@ -1,5 +1,5 @@
 body{
-	background-image: url(../img/fon3.jpg) ;
+	background-image: url(../img/f2.jpg) ;
     -moz-background-size: cover;
     -webkit-background-size: cover;
     -o-background-size: cover;
@@ -17,15 +17,32 @@ body:before{
 	bottom: 0;
 	right: 0;
 	left: 0;
-	background-color: rgba(0, 0, 0, .5);
+	background-color: rgba(0, 0, 0, .7);
 	z-index: -1;
 }
 /**********************************************
 					ROADMAP
 ***********************************************/
+.roadmap{
+	max-width: 1310px;
+	margin: 0px auto 0px auto;
+	margin-bottom: 30px;
+}
+.roadmap_title_h{
+	text-transform: uppercase;
+	text-align: center;
+	padding: 0px;
+	margin: 0px;
+}
+.roadmap_center_line{
+	display: block;
+	margin: 0px auto 30px auto;
+	height: 20px;
+	width: 200px;
+}
 .roadmap_vertical_line{
 	width: 0px;
-	height: 200px;
+	height: 50px;
 	border:1px solid #fff;
 	margin: 0px auto 0px auto;
 }
@@ -52,7 +69,6 @@ body:before{
 .roadmap_circle_right{
 	width: 100px;
 	height: 100px;
-	border:2px solid #fff;
 	margin: -57px auto 0px 505px;
 	border-radius: 50%;
 }
@@ -64,14 +80,19 @@ body:before{
 }
 .roadmap_vertical_line2{
 	width: 0px;
-	height: 200px;
+	height: 150px;
+	border:1px solid #fff;
+	margin: 0px auto 0px auto;
+}
+.roadmap_vertical_line3{
+	width: 0px;
+	height: 150px;
 	border:1px solid #fff;
 	margin: -35px auto 0px auto;
 }
 .roadmap_circle_left{
 	width: 100px;
 	height: 100px;
-	border:2px solid #fff;
 	border-radius: 50%;
 	margin-top: -65px;
 	margin-left: 95px;
@@ -82,17 +103,56 @@ body:before{
 	margin: 0px -30px 0px auto;
 }
 .roadmap_text_p_left {
-	margin: 0px auto 0px -30px;
+	margin: 0px auto 0px -10px;
 }
 .roadmap_img_right {
 	width: 100%;
 }
 .roadmap_year_left{
-	margin: 60px auto 0px -30px;
+	margin: 60px auto 0px -10px;
 }
 .roadmap_year_right{
 	text-align: right;
 	margin: 60px -30px 0px auto;
+}
+/**********************************************
+					ROADMAP_MAP
+***********************************************/
+.roadmap_map{
+	min-height: 500px;
+}
+.roadmap_map_img_zone{
+	position: relative;
+	max-width: 1000px;
+	margin: 0px auto 0px auto
+}
+.roadmap_map_img{
+	position: absolute;
+	width: 100%;
+}
+/**********************************************
+					SALE
+***********************************************/
+.sale{
+	height: 500px;
+	padding-top: 200px;
+}
+.sale_title_h{
+	text-transform: uppercase;
+	text-align: center;
+	margin: 0px;
+}
+.sale_lines{
+	height: 0px;
+	width: 100%;
+	border: 1px solid #fff;
+	margin: 30px auto auto -30px; 
+}
+.sale_center_line{
+	display: block;
+	margin: 0px auto;
+	height: 20px;
+	width: 200px;
 }
 /**********************************************
 					MAIN
@@ -110,6 +170,7 @@ body:before{
 .navbar-nav{
 	text-transform: uppercase;
 	text-align: center;
+	margin-left: 460px;
 }
 .wrap{
 	border:1px solid #fff;
@@ -390,6 +451,33 @@ body:before{
 	left: -60px;
 	top:-100px;
 }
+/*****CASHBACK****/
+.abot_titles_h_cashback{
+	text-transform: uppercase;
+	margin: 0px  0px;
+	font-size: 60px;
+	width: 550px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	text-align-last: left;
+}
+.about_text_p_cashback{
+	font-size: 21PX;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	line-height: 26px;
+}
+.left_line_cashback{
+	height: 20px;
+	width: 600px;
+	margin-left: -60px;
+}
+.about_img_cashback{
+	width: 500px;
+	position: absolute;
+	left: -50px;
+	top:-30px;
+}
 /**********************************************
 					TEAM
 ***********************************************/
@@ -425,6 +513,12 @@ body:before{
 	line-height: 21px;
 }
 .team_line_2{
+	margin-top: 50px;
+}
+.team_line_1{
+	margin-top: 50px;
+}
+.team_line_3{
 	margin-top: 50px;
 }
 /**********************************************
@@ -518,6 +612,7 @@ body:before{
 	line-height: 49px;
 	text-align: center;
 	background-color: #fff;
+	box-shadow: 0px 0px 18px 2px rgba(255, 255, 255, 0.8);
 }
 .subscribe_socialnetwork{
 	font-size: 55px;
@@ -537,7 +632,6 @@ body:before{
 					FOOTER
 ***********************************************/
 footer{
-	margin-top: 300px;
  background-color: #222222;
  padding-top: 40px;
  padding-bottom: 40px;
@@ -553,6 +647,9 @@ footer{
 }
 .footer_h{
 	text-transform: uppercase;
+}
+.footer_sosialnetworks{
+	margin-left: -10px;
 }
 .footer_sosialnetworks i{
 	font-size: 30px;
@@ -591,23 +688,31 @@ footer{
 /*********************
 		MAIN
 **********************/
+.main{
+	height: 800px;
+}
+.navbar-nav{
+	margin-left: 0px;
+}
 .element{
 	display: none;
 }
 .main_timer {
 	display: none;
+	width: 100px;
 }
 .main_invis_p_large {
 	display: inline-block;
 }
 .typed-cursor{
-	display: none;
+	display:none;
 }
 /*********************
 		VIDEO
 **********************/
 .video {
-	margin-top:150px;
+	height: 1400px;
+
 }
 .video_center_line{
 	width: 300px;
@@ -622,19 +727,122 @@ height: 300px;
 /*********************
 		ABOUT
 **********************/
-.about{
-	padding-top: 780px;
-	display: none
+.about_rows{
+	height: 100%;
+}
+.about_picture_zone{
+	position: relative;
+	height: 350px;
+	margin: 10px 0px;
+}
+.about_vertical_align-text{
+	margin: 0px auto;
+}
+/*****SMART****/
+.about_img_smart{
+	width: 300px;
+	left: 0;
+}
+.abot_titles_h_smart{
+	font-size: 40px;
+	width: 300px;
+}
+.left_line_smart{
+	width: 300px;
+	margin-left: -30px;
+}
+/*****DAG****/
+.about_img_dag{
+	width: 300px;
+	left: 0;
+}
+.abot_titles_h_dag{
+	font-size: 40px;
+	width: 300px;
+}
+.left_line_dag{
+	width: 300px;
+	margin-left: -30px;
+}
+.about_text_p_dag{
+	width: 300px;
+}
+/*****DOGOVOR****/
+.about_img_dogovor{
+	width: 200px;
+	left: 200;
+	top:0;
+}
+.abot_titles_h_dogovor{
+	font-size: 40px;
+	width: 300px;
+}
+.left_line_dogovor{
+	width: 300px;
+	margin-left: -30px;
+}
+
+/*****BUSINES****/
+.about_img_busines{
+	width: 300px;
+	left: 0;
+	top:0;
+}
+.abot_titles_h_busines{
+	font-size: 40px;
+	width: 300px;
+}
+.left_line_busines{
+	width: 360px;
+	margin-left: -35px;
+}
+.about_text_p_busines{
+	width: 300px;
+}
+/*****CARTS****/
+.about_img_carts{
+	width: 300px;
+	left: 0;
+	top:0;
+}
+.abot_titles_h_carts{
+	font-size: 40px;
+	width: 320px;
+}
+.left_line_carts{
+	width: 400px;
+	margin-left: -40px;
+}
+.about_text_p_carts{
+	width: 300px;
+}
+/*****CASHBACK****/
+.about_img_cashback{
+	width: 300px;
+	left: 0;
+	top:0;
+}
+.abot_titles_h_cashback{
+	font-size: 40px;
+	width: 320px;
+}
+.left_line_cashback{
+	width: 400px;
+	margin-left: -40px;
+}
+.about_text_p_cashback{
+	width: 300px;
 }
 /*********************
 	   TEAM
 **********************/
 .team{
-	margin-top: 800px;
 }
 /*********************
 	WHITE PAPER
 **********************/
+.white_papper{
+}
 .white_papper_img{
 	margin: 40px auto 0px auto;
 	width: 250px;
@@ -663,6 +871,8 @@ height: 300px;
 /*********************
 	SUBSCRIBE
 **********************/
+.subscribe{
+}
 .subscribe_center_line{
 	display: block;
 	margin: 0px auto;
@@ -682,12 +892,15 @@ height: 300px;
 	line-height: 49px;
 	margin: 15px auto 10px auto;
 }
+.subcsribe_btn:hover{
+	display: block;
+	margin: 15px auto 10px auto;
+}
 /*********************
 	    FOOTER
 **********************/
 footer{
 	text-align: center;
-	width: 100%;
 }
 .footer_stoeres{
 	display: inline-block;
@@ -695,6 +908,13 @@ footer{
 }
 .footer_h{
 	margin-top: 30px;
+}
+/*********************
+	    ROADMAP
+**********************/
+.roadmap{
+	display: none;
+	width: 100px;
 }
 
 
