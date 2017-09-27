@@ -21,6 +21,106 @@ body:before{
 	z-index: -1;
 }
 /**********************************************
+					PRELOADER
+***********************************************/
+#p_prldr{
+position: fixed;
+left: 0;
+top: 0;
+right:0;
+bottom:0;
+z-index: 30;
+background: #b3c2c7; /* Old browsers */
+background: -moz-linear-gradient(45deg,  #b3c2c7 0%, #f8f7f5 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(45deg,  #b3c2c7 0%,#f8f7f5 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(45deg,  #b3c2c7 0%,#f8f7f5 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b3c2c7', endColorstr='#f8f7f5',GradientType=1 );
+}
+ 
+.contpre small{font-size:25px;}
+ 
+.contpre{
+width: 250px;
+height: 100px;
+position: absolute;
+left: 50%;top: 48%;
+margin-left:-125px;
+margin-top:-75px;
+color:#fff;
+font-size:40px;
+letter-spacing:-2px;
+text-align:center;
+line-height:35px;}
+
+
+.preloader_img{
+	position: absolute;
+	z-index: -1;
+	width: 70px;
+	height: 70px;
+	left: 120px;
+	top: 40px;
+}
+.img_zone{
+	position: relative;
+	width: 313px;
+	margin: 0px auto;
+	padding: 0px auto;
+	align-content: center; 
+}
+.round1{
+	border: 3px solid transparent;
+	border-top-color:#323232;
+	border-radius: 50%;
+	height: 150px;
+	width: 150px;
+	margin:0px auto;
+	position: relative;
+	animation: spiner 1s infinite linear;
+	display: grid
+}
+.round1:before{
+	content: '';
+	border: 3px solid transparent;
+	border-top-color:#bac7b3;
+	border-radius: 50%;
+	position: absolute;
+	left: 10px;
+	right:10px;
+	top:10px;
+	bottom: 10px;
+	animation: spiner 2s infinite linear;
+}
+.round1:after{
+	content: '';
+	border: 3px solid transparent;
+	border-top-color:#33b5c5;
+	border-radius: 50%;
+	position: absolute;
+	left: 23px;
+	right:23px;
+	top:23px;
+	bottom: 23px;
+	animation: spiner 1.5s infinite linear;
+}
+@-webkit-keyframes spiner {
+from {
+	transform: rotate(0deg);
+}
+to {
+	transform: rotate(360deg);
+}
+}
+
+@keyframes spiner {
+from {
+	transform: rotate(0deg);
+}
+to {
+	transform: rotate(360deg);
+}
+}
+/**********************************************
 					ROADMAP
 ***********************************************/
 .roadmap{
@@ -221,7 +321,7 @@ body:before{
 	margin: 30px 0px  30px auto;
 	text-transform: uppercase;
 	font-family: 'Roboto', sans-serif;
-	font-weight: 400;
+	font-weight: 300;
 }
 .main_btn{
 	display:block;

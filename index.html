@@ -2,7 +2,7 @@
 <html lang="ru">
 <head>
   <meta charset="utf-8">
-  <title>ICO</title>
+  <title>Paymon-ICO</title>
   <meta name="description" content="particles.js is a lightweight JavaScript library for creating particles.">
   <meta name="author" content="Vincent Garreau" />
  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400&amp;subset=cyrillic" rel="stylesheet">
@@ -16,6 +16,19 @@
    <link rel="icon" href="img/Logo_Token.png">
 </head>
 <body>
+
+                                         <!---PRELOADER-->
+
+<div id="p_prldr">
+  <div class="contpre">
+      <div class="img_zone">
+          <img class="preloader_img" src="img/Logo_Nav.svg" alt="">
+          <div class="round1">
+          </div>
+  </div>
+    <span class="svg_anm"></span>
+  </div>
+</div>
 
 
 
@@ -128,6 +141,27 @@
          </div>
        </div>
     </div>
+        <div class="container">
+       <div class="row about_rows">
+           <div class="col-sm-1"></div>
+         <div class="col-sm-5 col-xs-12">
+            <div class="about_vertical_align-text" >
+              <h1  class="abot_titles_h_cashback">cashback</h1>
+              <img  src="img/left_line.png" class="left_line_cashback" alt="">
+              <p class="about_text_p_cashback">При переводе Paymon - токенов, вы подтверждаете предыдущие транзакции, и с помощью своего телефона или ноутбука являетесь майнером. За осуществлением транзакций, вам на ваш кошелёк будет приходить майнинговая выплата, своего рода "cashback" за подтверждение старых транзакций и осуществление новых.
+              </p>
+            </div>
+         </div>
+         <div class="col-sm-1"></div>
+         <div class="col-sm-5 col-xs-12">
+           <div class="about_picture_zone">
+             <img src="img/cashback/1.png" class="about_img_cashback wow fadeIn" data-wow-delay="" alt="">
+             <img src="img/cashback/2.png" class="about_img_cashback wow fadeIn" data-wow-delay="1s" alt="">
+             <img src="img/cashback/3.png" class="about_img_cashback wow fadeIn" data-wow-delay="2s" alt="">
+           </div>
+         </div>
+       </div>
+    </div>
     <div class="container">
        <div class="row about_rows">
         <div class="col-sm-1"></div>
@@ -207,27 +241,6 @@
            <div class="about_picture_zone">
              <img src="img/carts/1.png" class="about_img_carts wow fadeIn" data-wow-delay="" alt="">
              <img src="img/carts/2.png" class="about_img_carts wow fadeIn" data-wow-delay="1s" alt="">
-           </div>
-         </div>
-       </div>
-    </div>
-    <div class="container">
-       <div class="row about_rows">
-           <div class="col-sm-1"></div>
-         <div class="col-sm-5 col-xs-12">
-            <div class="about_vertical_align-text" >
-              <h1  class="abot_titles_h_cashback">cashback</h1>
-              <img  src="img/left_line.png" class="left_line_cashback" alt="">
-              <p class="about_text_p_cashback">При переводе Paymon - токенов, вы подтверждаете предыдущие транзакции, и с помощью своего телефона или ноутбука являетесь майнером. За осуществлением транзакций, вам на ваш кошелёк будет приходить майнинговая выплата, своего рода "cashback" за подтверждение старых транзакций и осуществление новых.
-              </p>
-            </div>
-         </div>
-         <div class="col-sm-1"></div>
-         <div class="col-sm-5 col-xs-12">
-           <div class="about_picture_zone">
-             <img src="img/cashback/1.png" class="about_img_cashback wow fadeIn" data-wow-delay="" alt="">
-             <img src="img/cashback/2.png" class="about_img_cashback wow fadeIn" data-wow-delay="1s" alt="">
-             <img src="img/cashback/3.png" class="about_img_cashback wow fadeIn" data-wow-delay="2s" alt="">
            </div>
          </div>
        </div>
@@ -597,6 +610,14 @@ var typed = new Typed('.element', {
   loop: true,
 });</script>
 <script src="js/jquery-3.2.1.min.js"></script>
+
+<script type="text/javascript">$(window).on('load', function () {
+    var $preloader = $('#p_prldr'),
+        $svg_anm   = $preloader.find('.svg_anm');
+    $svg_anm.fadeOut();
+    $preloader.delay(500).fadeOut('slow');
+});</script>
+
 <script src="js/typed.min.js"></script>
 <script media="screen" src="https://yastatic.net/jquery/3.1.1/jquery.min.js"></script> 
 <script src="js/wow.min.js"></script>
