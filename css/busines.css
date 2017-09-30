@@ -1,5 +1,5 @@
 body{
-	background-image: url(../img/f2.jpg) ;
+	background-image: url(../img/bg_busines2.jpg) ;
     -moz-background-size: cover;
     -webkit-background-size: cover;
     -o-background-size: cover;
@@ -17,7 +17,7 @@ body:before {
 	bottom: 0;
 	right: 0;
 	left: 0;
-	background-color: rgba(0, 0, 0, .7);
+	background-color: rgba(0, 0, 0, .8);
 	z-index: -1;
 }
 /**********************************************
@@ -163,11 +163,36 @@ to {
 	font-weight: 300;
 	font-family: 'Roboto', sans-serif;
 }
+.main_btn{
+	display:block;
+	text-transform: uppercase;
+	color: #fff;
+	text-decoration: none;
+	margin: 20px auto 0px auto;
+	border: 1px solid #fff;
+	text-align: center;
+	width: 300px;
+	height: 50px;
+	font-size: 25px;
+	line-height: 50px;
+	border-radius: 2px;
+	text-decoration: none;
+	transition: 0.2s;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	margin-bottom: 0px
+
+}
+.main_btn:hover{
+	text-decoration: none;
+	color: #000;
+	background-color: #fff;
+}
 /**********************************************
 					FOOTER
 ***********************************************/
 footer{
-	margin-top: 1100px;
+	margin-top: 1300px;
  	background-color: #222222;
  	padding-top: 40px;
  	padding-bottom: 40px;

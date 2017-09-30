@@ -488,6 +488,7 @@ to {
 					ROADMAP
 ***********************************************/
 .roadmap{
+	padding-top: 60px;
 	max-width: 1310px;
 	margin: 0px auto 0px auto;
 	margin-bottom: 30px;
@@ -689,7 +690,7 @@ to {
 }
 .team{
 	text-align: center;
-	padding-top: 50px;
+	padding-top: 200px;
 }
 .team_text_p{
 	width: 240px;
