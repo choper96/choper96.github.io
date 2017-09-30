@@ -137,7 +137,7 @@ to {
 .navbar-nav{
 	text-transform: uppercase;
 	text-align: center;
-	margin-left: 460px;
+	margin-left: 370px;
 }
 .wrap{
 	border:1px solid #fff;
@@ -500,7 +500,7 @@ to {
 }
 .roadmap_center_line{
 	display: block;
-	margin: 0px auto 30px auto;
+	margin: 0px auto 25px auto;
 	height: 20px;
 	width: 200px;
 }
@@ -565,9 +565,11 @@ to {
 .roadmap_text_p_right{
 	text-align: right;
 	margin: 0px -30px 0px auto;
+	font-size: 30px;
 }
 .roadmap_text_p_left {
 	margin: 0px auto 0px -10px;
+	font-size: 30px;
 }
 .roadmap_img_right {
 	width: 100%;
@@ -623,7 +625,8 @@ to {
 .sale_txt_p{
 	text-transform: uppercase;
 	text-align: center;
-	line-height: 50px;   
+	line-height: 50px;
+	margin-top: 25px;
 }
 /**********************************************
 					WHITE PAPER
@@ -697,13 +700,13 @@ to {
 	line-height: 21px;
 }
 .team_line_2{
-	margin-top: 50px;
+	margin-top: 25px;
 }
 .team_line_1{
-	margin-top: 50px;
+	margin-top: 25px;
 }
 .team_line_3{
-	margin-top: 50px;
+	margin-top: 25px;
 }
 /**********************************************
 					SUBSCRIBE
@@ -782,6 +785,11 @@ to {
 .media_img_zone{
 	position: relative;
 	margin: 0px 50px;
+	transition: 0.2s;
+	opacity: 0.7;
+}
+.media_img_zone:hover{
+	opacity: 1;
 }
 .media_img{
 	width: 100%;
