@@ -565,11 +565,11 @@ to {
 .roadmap_text_p_right{
 	text-align: right;
 	margin: 0px -30px 0px auto;
-	font-size: 30px;
+	font-size: 25px;
 }
 .roadmap_text_p_left {
 	margin: 0px auto 0px -10px;
-	font-size: 30px;
+	font-size: 25px;
 }
 .roadmap_img_right {
 	width: 100%;
