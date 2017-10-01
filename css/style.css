@@ -30,11 +30,8 @@ body:before {
 	right:0;
 	bottom:0;
 	z-index: 30;
-	background: #b3c2c7;
-    background: -moz-linear-gradient(45deg,  #b3c2c7 0%, #f8f7f5 100%); 
-    background: -webkit-linear-gradient(45deg,  #b3c2c7 0%,#f8f7f5 100%); 
-    background: linear-gradient(45deg,  #b3c2c7 0%,#f8f7f5 100%); 
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b3c2c7', endColorstr='#f8f7f5',GradientType=1 );
+	background: #fff;
+
 }
 .contpre small{font-size:25px;
 }
@@ -67,8 +64,8 @@ body:before {
 	align-content: center; 
 }
 .round1{
-	border: 3px solid transparent;
-	border-top-color:#323232;
+	border: 1px solid transparent;
+	border-top-color:#33b5e5;
 	border-radius: 50%;
 	height: 150px;
 	width: 150px;
@@ -79,8 +76,8 @@ body:before {
 }
 .round1:before{
 	content: '';
-	border: 3px solid transparent;
-	border-top-color:#bac7b3;
+	border: 1px solid transparent;
+	border-top-color:#33b5e5;
 	border-radius: 50%;
 	position: absolute;
 	left: 10px;
@@ -91,8 +88,8 @@ body:before {
 }
 .round1:after{
 	content: '';
-	border: 3px solid transparent;
-	border-top-color:#33b5c5;
+	border: 1px solid transparent;
+	border-top-color:#33b5e5;
 	border-radius: 50%;
 	position: absolute;
 	left: 23px;
