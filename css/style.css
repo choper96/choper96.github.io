@@ -23,6 +23,15 @@ body:before {
 /**********************************************
 					PRELOADER
 ***********************************************/
+.about_busines_welzone{
+	margin-top: 0px;
+	position: relative;
+	width: 100%;
+}
+.about_busines_welimg{
+	width: 100%;
+	position: absolute;
+}
 #p_prldr{
 	position: fixed;
 	left: 0;
@@ -134,7 +143,7 @@ to {
 .navbar-nav{
 	text-transform: uppercase;
 	text-align: center;
-	margin-left: 370px;
+	margin-left: 470px;
 }
 .wrap{
 	border:1px solid #fff;
@@ -250,8 +259,8 @@ to {
 	line-height: 21px;
 }
 .video_video{
-	margin: 25px auto;
-	display: block;
+	margin: 25px auto 25px auto;
+	display: inline;
 }
  /**********************************************
 					ABOUT
@@ -924,7 +933,7 @@ height: 250px;
 	margin-left: -30px;
 }
 .about_text_p_smart{
-	width: 100%;/**<----------------------------------------------------------------------ВЕЗДЕ ТАК СДЕЛАЙ, ТУПИЦА***************/
+	width: 100%;/**<----------------------------------------------------------------------***************/
 }
 /*****DAG****/
 .about_img_dag{
