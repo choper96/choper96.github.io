@@ -115,14 +115,16 @@
           <div class="col-sm-1"></div>
            <div class="col-sm-5 col-xs-12">
               <div class="about_vertical_align-text">
-                <h1 class="abot_titles_h_dag">Переводы<span style="display: block;"></span> на базе DAG</h1>
+                <h1 class="abot_titles_h_dag">Новая blockchain-технология</h1>
                 <img src="img/left_line.png" class="left_line_dag" alt="">
-                <p class="about_text_p_dag">За счёт переводов на базе DAG нет майнинга, каждый при отправке транзакции становится неким майнером. В следствии этого мы отходим от понятия комиссия или газ (газы-это комиссия в эфирах) и увеличиваем скорость транзакций, превосходящих любую платформу или систему на блокчейне. 
+                <p class="about_text_p_dag">Наша главная задача, создать для наших пользователей комфортные условия для перевода криптовалюты. Это должно происходить быстро и надёжно, а самое главное без уплаты комиссий. 
                 </p>
-                <!---<a href="#spoiler_dag" data-toggle="collapse" class="btn btn-primary">Подробнее...</a>-->
+                <a href="#spoiler_dag" data-toggle="collapse" class="btn btn-primary">Подробнее...</a>
                 <div class="collapse" id="spoiler_dag">
                 <div class="well">
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi iure quasi tempora sapiente, quidem, expedita pariatur laborum dolor consectetur inventore. Perferendis expedita blanditiis, odit ex distinctio voluptatibus nihil maiores suscipit, eius reprehenderit nemo, nesciunt aut eaque laboriosam veritatis? Corporis ea alias ut aut unde similique consequatur sed, quaerat beatae molestias sunt doloremque ratione incidunt cum. Perspiciatis, amet quas atque. Ipsam rem ducimus at, optio non quod quaerat nulla eius qui illo illum! Voluptates nesciunt rerum cumque accusantium illum adipisci, quis voluptatum aspernatur tempore consectetur nam corporis iure, dolor dolorem eligendi quibusdam vero enim minus natus fugiat quas! At, beatae, modi!</p>
+                  <p>Вместо стандартного Блокчейна существует DAG (направленный ациклический граф), который мы называем tangle. Транзакции, представляют собой набор узлов tangle. Его краевой набор получается следующим образом: при поступлении новой транзакции он должен одобрить две предыдущие транзакции. Если между транзакцией A и транзакцией B нет направленного ребра, но существует направленный путь длины не менее двух от A до B, мы говорим, что A косвенно подтверждает B.
+
+Для того чтобы транзакция была действительной, узел должен решить криптографическую головоломку, аналогичную той, которая содержится в биткойн-майнере (например, ему нужно найти nonce, так что хэш этого nonce вместе с некоторыми данными из одобренные транзакции имеют конкретную форму, например, имеют по крайней мере некоторое фиксированное количество нулевых тритов впереди).</p>
                 </div>
               </div>
               </div>
@@ -144,14 +146,16 @@
              <div class="col-sm-1"></div>
            <div class="col-sm-5 col-xs-12">
               <div class="about_vertical_align-text" >
-                <h1  class="abot_titles_h_cashback">cashback</h1>
+                <h1  class="abot_titles_h_cashback">POM-proof of me</h1>
                 <img  src="img/left_line.png" class="left_line_cashback" alt="">
-                <p class="about_text_p_cashback">При переводе Paymon - токенов, вы подтверждаете предыдущие транзакции, и с помощью своего телефона или ноутбука являетесь майнером. За осуществлением транзакций, вам на ваш кошелёк будет приходить майнинговая выплата, своего рода "cashback" за подтверждение старых транзакций и осуществление новых.
+                <p class="about_text_p_cashback">При каждой транзакции, совершённой вами, будет происходить микро-эмиссия токенов, которая будет приходить вам на ваш кошелёк в форме кэшбека.
                 </p>
-                <!---<a href="#spoiler_cashback" data-toggle="collapse" class="btn btn-primary">Подробнее...</a>-->
+                <a href="#spoiler_cashback" data-toggle="collapse" class="btn btn-primary">Подробнее...</a>
                 <div class="collapse" id="spoiler_cashback">
                 <div class="well">
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi iure quasi tempora sapiente, quidem, expedita pariatur laborum dolor consectetur inventore. Perferendis expedita blanditiis, odit ex distinctio voluptatibus nihil maiores suscipit, eius reprehenderit nemo, nesciunt aut eaque laboriosam veritatis? Corporis ea alias ut aut unde similique consequatur sed, quaerat beatae molestias sunt doloremque ratione incidunt cum. Perspiciatis, amet quas atque. Ipsam rem ducimus at, optio non quod quaerat nulla eius qui illo illum! Voluptates nesciunt rerum cumque accusantium illum adipisci, quis voluptatum aspernatur tempore consectetur nam corporis iure, dolor dolorem eligendi quibusdam vero enim minus natus fugiat quas! At, beatae, modi!</p>
+                  <p>Так как вместо майнеров выступают сами пользователи сети, которые выделяют мощности компьютеров и телефонов, целесообразно будет их награждать за каждую сделанную транзакцию.
+
+Раз в месяц, определенное колличество токенов равномерно распределяется между участниками сети(чем больше транзакций совершил пользователь, тем большая часть токенов будет перечислена в конце месяца).</p>
                 </div>
               </div>
               </div>
@@ -173,12 +177,12 @@
                 <div class="about_vertical_align-text">
                   <h1 class="abot_titles_h_smart">Smart контракты</h1>
                   <img src="img/left_line.png" class="left_line_smart" alt="">
-                  <p class="about_text_p_smart">Кто-то создаёт ордер на покупку, в этот же момент, кто-то создаёт ордер на продажку, происходит сделка на базе смарт контрактов. Механизм синхранизирует двух пользователей через систему Paymon и сделка проходит без комиссии.
+                  <p class="about_text_p_smart">Мы считаем, что покупка и продажа криптовалюты, должна быть максимально удобной. Все операции с криптовалютой должны происходить без потери собственных финансовых средств. Мы рады предоставить эту возможность нашим пользователям.
                   </p>
-                <!---<a href="#spoiler_smart" data-toggle="collapse" class="btn btn-primary">Подробнее...</a>-->
+                <a href="#spoiler_smart" data-toggle="collapse" class="btn btn-primary">Подробнее...</a>
                 <div class="collapse" id="spoiler_smart">
                 <div class="well">
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi iure quasi tempora sapiente, quidem, expedita pariatur laborum dolor consectetur inventore. Perferendis expedita blanditiis, odit ex distinctio voluptatibus nihil maiores suscipit, eius reprehenderit nemo, nesciunt aut eaque laboriosam veritatis? Corporis ea alias ut aut unde similique consequatur sed, quaerat beatae molestias sunt doloremque ratione incidunt cum. Perspiciatis, amet quas atque. Ipsam rem ducimus at, optio non quod quaerat nulla eius qui illo illum! Voluptates nesciunt rerum cumque accusantium illum adipisci, quis voluptatum aspernatur tempore consectetur nam corporis iure, dolor dolorem eligendi quibusdam vero enim minus natus fugiat quas! At, beatae, modi!</p>
+                  <p>Для покупки или продажи криптовалют приходится вникать и разбираться во многих излишних элементах, нет целостности. Различные обменники и биржи берут немалую комиссию. В Paymon не будет места посредничеству, внутри платформы будет создана система смарт-контрактов, которая будет связывать всех участников, желающих купить или продать криптовалюту между собой.</p>
                 </div>
               </div>
                 </div>
@@ -201,12 +205,18 @@
               <div class="about_vertical_align-text">
                 <h1 class="abot_titles_h_dogovor">Договор оферты</h1>
                 <img src="img/left_line.png" class="left_line_dogovor" alt="">
-                <p class="about_text_p_dogovor">Всем участникам ICO нашего будет выслана копия договора, которая является <span style="display: block;"></span> публичной офертой и несёт юридическую договорённость. Договор обязует нас возместить количество токенов, равное внесённой сумме денежных единиц.
+                <p class="about_text_p_dogovor">Во времена scum-проектов, необходимо дать элемент защиты и гарантии для участников ICO.
                 </p>
-                <!---<a href="#spoiler_dogovor" data-toggle="collapse" class="btn btn-primary">Подробнее...</a>-->
+                <a href="#spoiler_dogovor" data-toggle="collapse" class="btn btn-primary">Подробнее...</a>
                 <div class="collapse" id="spoiler_dogovor">
                 <div class="well">
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi iure quasi tempora sapiente, quidem, expedita pariatur laborum dolor consectetur inventore. Perferendis expedita blanditiis, odit ex distinctio voluptatibus nihil maiores suscipit, eius reprehenderit nemo, nesciunt aut eaque laboriosam veritatis? Corporis ea alias ut aut unde similique consequatur sed, quaerat beatae molestias sunt doloremque ratione incidunt cum. Perspiciatis, amet quas atque. Ipsam rem ducimus at, optio non quod quaerat nulla eius qui illo illum! Voluptates nesciunt rerum cumque accusantium illum adipisci, quis voluptatum aspernatur tempore consectetur nam corporis iure, dolor dolorem eligendi quibusdam vero enim minus natus fugiat quas! At, beatae, modi!</p>
+                  <p>После участия в ICO вы вправе отказаться или получить электронный экземпляр документа, подтверждающий факт инвестирования. Это некое подобие договора оферты, которое имеет юридический вес, в некоторых юрисдикциях.
+
+Вы лишь указываете свои данные и электронный адрес, на который хотите получить договор. Всё остальное всё сделает программа.
+
+В данном документе будут прописаны реквизиты сторон сделки, элемент сделки и обязанности каждой из сторон.
+
+Данные документ будет свидетельствовать о том, что вы вложили в нас крипто-актив в виде BTC или ETH, а мы со своей стороны обязуемся выдать эквивалентно вложенным вашим средствам PMT.!</p>
                 </div>
               </div>
               </div>
@@ -227,7 +237,7 @@
             <div class="about_vertical_align-text">
                 <h1 class="abot_titles_h_busines">Конструктор Paymon</h1>
                 <img src="img/left_line.png" class="left_line_busines" alt="">
-                <p class="about_text_p_busines">За счёт отсутствия комиссии и при создании абсолютно быстрых переводов, мы строим следующий элемент нашего ICO - это привязка натурального бизнеса. 
+                <p class="about_text_p_busines">Одна из целей Paymon – это дать возможность людям оплачивать продукты, услуги и различные вещи за криптовалюту. 
                 </p>
                 <!---<a href="#spoiler_busines" data-toggle="collapse" class="btn btn-primary">Подробнее...</a>-->
                 <div class="collapse" id="spoiler_busines">
@@ -273,7 +283,7 @@
               <div class="about_vertical_align-text" >
                 <h1  class="abot_titles_h_carts">Пластиковые<br>карты Paymon</h1>
                 <img  src="img/left_line.png" class="left_line_carts" alt="">
-                <p class="about_text_p_carts">Мы выпускаем пластиковые карты mastercard и visa Paymon, которые будут привязаны к вашему профилю в Paymon. Вы сможете оплачивать свои покупки криптовалютой.
+                <p class="about_text_p_carts">Мы выпускаем пластиковые карты Mastercard и Visa Paymon, которые будут привязаны к вашему профилю в Paymon. Вы сможете оплачивать свои покупки криптовалютой.
                 </p>
                 <!---<a href="#spoiler_carts" data-toggle="collapse" class="btn btn-primary">Подробнее...</a>-->
                 <div class="collapse" id="spoiler_carts">
@@ -589,7 +599,8 @@
   <h1 class="white_papper_h">white paper</h1>
     <img  class="white_paper_center_line" src="img/line.png" alt="">
   <p class="white_papper_p">Подробное описание ico paymon</p>
-  <a href="#" class="main_btn">ЧИТАТЬ</a>
+  <a href="docs/White_Paper_Paymon.pdf" class="main_btn">ЧИТАТЬ</a>
+  <p class="white_papper_p">Находится в редакции</p>
 </div>
       </div>
     </div>
@@ -612,7 +623,7 @@
       <div class="col-md-4 wow fadeIn" data-wow-delay="0.5s">
         <img width="250px" src="img/Team_markushin.png" alt="">
         <h3 class="team_txt_names">Маркушин <br> Владислав</h3>
-        <p class="team_text_p">Ведущий разработчик Paymon, Blockchain - программист</p>
+        <p class="team_text_p">Ведущий разработчик Paymon, Blockchain - программист, Android и IOS разработка</p>
       </div>
       <div class="col-md-4 wow fadeIn" data-wow-delay="1s">
         <img width="250px" src="img/Photo_Skorinin.png" alt="">
@@ -664,16 +675,12 @@
       <div class="col-md-4 wow fadeIn">
         <img width="250px" src="img/support_andrey.png" alt="">
         <h3 class="team_txt_names">Андрей<br> Орлов</h3>
-        <p class="team_text_p">Андрей приобрёл большой опыт в прямом управлении предприятиями реального сектора экономики в различных сферах: производство, логистика, строительство. Запустил, развил и продал несколько собственных проектов. Предприниматель с 2004 года, он основал два успешных стартапа в сфере мобильных технологий — связной дискаунтер Мобильник и цифровой поставщик DigitalFree. 
-        В 2008 он присоединился к команде Capinvest 21 и начал работу над проектами фонда. 2008-2011 были годами, когда Андрей принял участие в построении различных компаний «Капинвест 21». Это были компании таких секторов экономики как нефтегазовая отрасль, трубопроводное строительство, проектирование и информационные технологии. 
-        С 2015 года Андрей — управляющий партнёр фонда «Капинвест 21». Андрей получил два высших образования в ТюмГУ (информационные технологии) и ТюмГАСУ (экономика и финансы).</p>
+        <p class="team_text_p">Учередитель Finshi и Capinvest</p>
       </div>
       <div class="col-md-4 wow fadeIn" data-wow-delay="0.5s">
         <img width="250px" src="img/suport_vacheslav.png" alt="">
         <h3 class="team_txt_names">Вячеслав <br> Сорокин</h3>
-        <p class="team_text_p">Вячеслав помогает с выстраиванием взаимовыгодных партнёрских отношений с корпорациями, организациями и правительственными организациями. Дополнительно он обладает техническими компетенциями в стратегическом управлении портфельными компаниями. 
-        Наибольший опыт у Вячеслава в области технологий энергетики и технического обеспечения. 
-        Вячеслав имеет обширный опыт в прямых продажах и маркетинге. Прежде чем присоединиться к Капинвест 21, нашей материнской компании, он приобрёл опыт в оффлайн-бизнесе. Он предприниматель с 16-летним стажем, который основал 3 собственных индустриальных стартапа на территории УРФО..</p>
+        <p class="team_text_p">Учередитель Finshi и Capinvest</p>
       </div>
       <div class="col-md-4 wow fadeIn" data-wow-delay="0.5s">
         <img width="250px" src="img/team_besedin.png" alt="">
@@ -793,7 +800,7 @@
       </div>
       <div class="col-sm-3 col-xs-12">
         <h4 class="footer_h">company</h4>
-        <p class="footer_p_lh"><a class="footer_links" href="https://paymon.org/terms---conditionsrus.html">Пользовательское соглашение</a><br><a class="footer_links" href="https://paymon.org/privacy-policyrus.html">Политика конфидециальности</a><br><a class="footer_links" href="">White paper</a></p>
+        <p class="footer_p_lh"><a class="footer_links" href="https://paymon.org/terms---conditionsrus.html">Пользовательское соглашение</a><br><a class="footer_links" href="https://paymon.org/privacy-policyrus.html">Политика конфидециальности</a><br><a class="footer_links" href="docs/White_Paper_Paymon.pdf">White paper</a></p>
       </div>
       <div class="col-sm-3 col-xs-12">
         <div class="footer_contacts">
@@ -807,7 +814,7 @@
           </p>
         </div>
           <div class="footer_stoeres">
-            <a class="footer_links" href=""><img width="90px" src="img/apple png.png" alt=""></a>
+            <a href="#0" class="cd-btn" id="modal-trigger" data-type="cd-modal-trigger" class="footer_links" href=""><img width="90px" src="img/apple png.png" alt=""></a>
           </div>
           <div class="footer_stoeres">
               <a class="footer_links" href="https://play.google.com/store/apps/details?id=ru.paymon.android.release"><img width="90px" src="img/google png.png" alt=""></a>
@@ -817,6 +824,8 @@
     </div>
   </div>
 </footer>
+
+
 
 
 <script src="js/typed.min.js"></script>
