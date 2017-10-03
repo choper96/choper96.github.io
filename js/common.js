@@ -4,15 +4,21 @@ $(function() {
 
 	var clock;
 	clock = $(".clock").FlipClock({
-		clockFace: "DailyCounter",
-		autoStart: false,
+		clockFace : "DailyCounter",
+		autoStart : false,
+		callbacks : {
+			stop : function() {
+				$(".message").html("START ICO");
+			}
+		}
+
 
 	});
 
 	var dt = "November 20 2017 00:00:00";
 	var first = new Date(dt);
 	var last = Date.now();
-	var remaining = first - lust;
+	var remaining = first - last;
 	remaining /=1000;
 
 	clock.setTime(remaining);
