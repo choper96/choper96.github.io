@@ -146,7 +146,7 @@
   border-bottom-left-radius: 6px;
   border-bottom-right-radius: 6px;
 }
-
+/********************************************************************ЛИСТЫ**********/
 .flip-clock-wrapper ul li a div div.inn {
   position: absolute;
   left: 0;
@@ -202,7 +202,7 @@
   position: absolute;
   top: -1.5em;
   right: -86px;
-  color: black;
+  color: #fff;
   text-shadow: none; }
 
 .flip-clock-divider.minutes .flip-clock-label {
