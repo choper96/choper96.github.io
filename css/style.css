@@ -870,7 +870,7 @@ footer{
 ********************A-D-A-P-T-I-V-E***********
 *******************0px-320px****************
 **********************************************/
-@media (min-width: 0px) and (max-width: 320px){
+@media (min-width: 0px) and (max-width: 600px){
 .br{
 	display: block;
 }
