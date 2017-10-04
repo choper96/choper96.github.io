@@ -20,8 +20,6 @@ body:before {
 	background-color: rgba(0, 0, 0, .7);
 	z-index: -1;
 }
-
-
 /**********************************************
 					PRELOADER
 ***********************************************/
@@ -183,7 +181,10 @@ to {
 	margin: 0px auto 0px auto;
 	padding:0px;
 }
-
+.main_wrap_to_timer{
+	width: 650px;
+	margin: 0px auto;
+}
 .main_txt{
 	text-align: center;
 	font-size: 20px;
@@ -262,7 +263,7 @@ to {
 }
 .video_video{
 	margin: 25px auto 25px auto;
-	display: inline;
+	display: block;
 }
  /**********************************************
 					ABOUT
@@ -870,11 +871,21 @@ footer{
 *******************0px-320px****************
 **********************************************/
 @media (min-width: 0px) and (max-width: 320px){
+.br{
+	display: block;
+}
+.sale{
+	display: none;
+}
+.main_btn{
+	width: 200px;
+}
+.main_wrap_to_timer{
+	width: 650px;
+	margin: 0px auto;
+}
 .main{
 	height: 900px;
-}
-.video{
-	height: 1500px;
 }
 .element{
 	display: none;
@@ -892,8 +903,10 @@ footer{
 		VIDEO
 **********************/
 .video {
-	height: 1600px;
-
+	height: 700px;
+}
+.video_align{
+	padding-right: 0px;
 }
 .video_center_line{
 	width: 230px;
@@ -905,6 +918,11 @@ height: 250px;
 .video_text{
 	width: 100%;
 }
+.video_h{
+	font-size: 20px;
+	display: block;
+}
+
 /*********************
 		ABOUT
 **********************/
@@ -922,12 +940,13 @@ height: 250px;
 
 /*****SMART****/
 .about_img_smart{
-	width: 300px;
+	width: 280px;
 	left: 0;
 }
 .abot_titles_h_smart{
-	font-size: 40px;
+	font-size: 30px;
 	width: 300px;
+	width: 100%;	
 }
 .left_line_smart{
 	width: 300px;
@@ -938,12 +957,13 @@ height: 250px;
 }
 /*****DAG****/
 .about_img_dag{
-	width: 300px;
+	width: 280px;
 	left: 0;
 }
 .abot_titles_h_dag{
-	font-size: 40px;
+	font-size: 30px;
 	width: 300px;
+	width: 100%;
 }
 .left_line_dag{
 	width: 300px;
@@ -951,6 +971,7 @@ height: 250px;
 }
 .about_text_p_dag{
 	width: 300px;
+	width: 100%;
 }
 /*****DOGOVOR****/
 .about_img_dogovor{
@@ -959,8 +980,9 @@ height: 250px;
 	top:0;
 }
 .abot_titles_h_dogovor{
-	font-size: 40px;
+	font-size: 30px;
 	width: 300px;
+	width: 100%;
 }
 .left_line_dogovor{
 	width: 300px;
@@ -973,15 +995,17 @@ height: 250px;
 	top:0;
 }
 .abot_titles_h_busines{
-	font-size: 40px;
+	font-size: 30px;
 	width: 300px;
+	width: 100%;
 }
 .left_line_busines{
-	width: 360px;
-	margin-left: -35px;
+	width: 300px;
+	margin-left: -30px;
 }
 .about_text_p_busines{
 	width: 300px;
+	width: 100%;
 }
 /*****CARTS****/
 .about_img_carts{
@@ -990,32 +1014,36 @@ height: 250px;
 	top:0;
 }
 .abot_titles_h_carts{
-	font-size: 40px;
+	font-size: 30px;
 	width: 320px;
+	width: 100%;
 }
 .left_line_carts{
-	width: 400px;
-	margin-left: -40px;
+	width: 300px;
+	margin-left: -30px;
 }
 .about_text_p_carts{
 	width: 300px;
+	width: 100%;
 }
 /*****CASHBACK****/
 .about_img_cashback{
-	width: 300px;
+	width: 280px;
 	left: 0;
 	top:0;
 }
 .abot_titles_h_cashback{
-	font-size: 40px;
-	width: 320px;
+	font-size: 30px;
+	width: 300px;
+	width: 100%;
 }
 .left_line_cashback{
-	width: 400px;
-	margin-left: -40px;
+	width: 300px;
+	margin-left: -30px;
 }
 .about_text_p_cashback{
 	width: 300px;
+	width: 100%;
 }
 /*********************
 	   TEAM
@@ -1032,6 +1060,7 @@ height: 250px;
 	width: 250px;
 }
 .white_papper_h{
+	font-size: 30px;
 	letter-spacing:30px;
 	width: 300px;
 	margin: 50px auto 0px auto;
@@ -1040,8 +1069,9 @@ height: 250px;
 	text-align: center;
 }
 .white_paper_center_line{
-	width: 300px;
+	width: 250px;
 }
+
 .white_papper_p{
 	width: 100%;
 	margin: 25px auto 0px auto;
