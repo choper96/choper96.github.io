@@ -868,7 +868,7 @@ footer{
 }
 /*********************************************
 ********************A-D-A-P-T-I-V-E***********
-*******************0px-320px****************
+*******************0px-600px****************
 **********************************************/
 @media (min-width: 0px) and (max-width: 600px){
 .media_img_zone{
@@ -884,9 +884,9 @@ footer{
 .main_btn{
 	width: 200px;
 }
-.main_wrap_to_timer{
-	width: 650px;
-	margin: 0px auto;
+  .main_wrap_to_timer{
+  width: 250px;
+  margin: 0px auto;
 }
 .main{
 	height: 900px;
