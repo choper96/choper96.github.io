@@ -871,6 +871,9 @@ footer{
 *******************0px-600px****************
 **********************************************/
 @media (min-width: 0px) and (max-width: 600px){
+.navbar-nav{
+	margin-left: 470px;
+}
 .media_img_zone{
 	width: 250px;
 	height: 200px;
