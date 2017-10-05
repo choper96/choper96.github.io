@@ -23,6 +23,9 @@ body:before {
 /**********************************************
 					PRELOADER
 ***********************************************/
+.roadmap_mobile{
+	display: none;
+}
 .about_busines_welzone{
 	margin-top: 0px;
 	position: relative;
