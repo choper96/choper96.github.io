@@ -6,12 +6,12 @@
   <meta name="author" content="Maksim Pakhomov"/>
  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400&amp;subset=cyrillic" rel="stylesheet">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-   <link rel="stylesheet" media="screen" href="css/bootstrap.css">
+   <link rel="stylesheet" media="screen" href="css/bootstrap.min.css">
    <link rel="stylesheet" media="screen" href="css/style.css">
    <link rel="stylesheet" media="screen" href="css/Arkhip_font.css">
-   <link rel="stylesheet" media="screen" href="css/animate.css">
    <link rel="stylesheet" media="screen" href="css/fontello.css">
    <link rel="stylesheet" media="screen" href="css/fontello-embedded.css">
+   <link rel="stylesheet" href="css/animate.css">
    <link rel="icon" href="img/Logo_Token.png">
    <link rel="stylesheet" href="css/flipclock.css">
 </head>
@@ -78,7 +78,7 @@
   <div class="row">
     <div class="col-xs-1"></div>
     <div class="col-xs-10">
-       <div class="main_txt "><p class="main_invis_p_large">Platform for convenient handling of crypto currency</p><span class="element"></span></div>
+       <div class="main_txt "><p class="main_invis_p_large">Грядут большие перемены и вы участвуете в этом!</p><span class="element"></span></div>
        <h1 class="main_timer_txt">До начала ICO осталось</h1>
     </div>
     <div class="col-xs-1"></div>
@@ -86,8 +86,14 @@
       </div>
       </div>
 
-<div class="main_wrap_to_timer" >
-  <div class="clock"></div>
+<div class="main_wrap_to_timer" style="position: relative;padding-top: 15px;" >
+    <p class="main_timer_day">Дней</p>
+    <p class="main_timer_hours">Часов</p>
+    <p class="main_timer_minutes">Минут</p>
+    <p class="main_timer_seconds">Cекунд</p>
+  <div class="clock">
+
+  </div>
 </div>
   
   <!---<a href="#" class="main_btn">купить токены</a>-->
@@ -129,7 +135,7 @@
                 <div class="well">
                   <p>Вместо стандартного Блокчейна существует DAG (направленный ациклический граф), который мы называем tangle. Транзакции, представляют собой набор узлов tangle. Его краевой набор получается следующим образом: при поступлении новой транзакции он должен одобрить две предыдущие транзакции. Если между транзакцией A и транзакцией B нет направленного ребра, но существует направленный путь длины не менее двух от A до B, мы говорим, что A косвенно подтверждает B.
 
-Для того чтобы транзакция была действительной, узел должен решить криптографическую головоломку, аналогичную той, которая содержится в биткойн-майнере (например, ему нужно найти nonce, так что хэш этого nonce вместе с некоторыми данными из одобренные транзакции имеют конкретную форму, например, имеют по крайней мере некоторое фиксированное количество нулевых тритов впереди).</p>
+                  Для того чтобы транзакция была действительной, узел должен решить криптографическую головоломку, аналогичную той, которая содержится в биткойн-майнере (например, ему нужно найти nonce, так что хэш этого nonce вместе с некоторыми данными из одобренные транзакции имеют конкретную форму, например, имеют по крайней мере некоторое фиксированное количество нулевых тритов впереди).</p>
                 </div>
               </div>
               </div>
@@ -637,11 +643,12 @@
     <img class="store_bigimg" src="img/1 tel.png" alt="">
       <div class="row" style="margin-top:20px">
         <div class="col-xs-3"></div>
-        <div class="col-xs-3 store_store_zone">
+        <div class="col-xs-3 store_store_zone1">
           <img class="store_img" src="img/apple png.png" alt="">
+          <p class="store_txt_inbtn">Доступно с 10.10.2017</p>
         </div>
         
-        <div class="col-xs-3 store_store_zone">
+        <div class="col-xs-3 store_store_zone2">
           <a href="https://play.google.com/store/apps/details?id=ru.paymon.android.release">
             <img class="store_img" src="img/google png.png" alt="">
           </a>
@@ -919,11 +926,9 @@ var typed = new Typed('.element', {
   backDelay: 1000,
   startDelay: 500,
   loop: true,
-});</script>
+});
+</script>
 <script src="js/jquery-3.2.1.min.js"></script>
-<script src="js/jQuery.scrollSpeed.js"></script>
-
-
 
 <script type="text/javascript">$(window).on('load', function () {
     var $preloader = $('#p_prldr'),
@@ -933,13 +938,13 @@ var typed = new Typed('.element', {
 });</script>
 
 
-<script src="js/typed.min.js"></script> 
+
 <script src="js/wow.min.js"></script>
 <script>
   new WOW().init();
 </script>
 
-<script src="js/bootstrap.js"></script>
+<script src="js/bootstrap.min.js"></script>
 <script src="js/flipclock.min.js"></script>
 <script src="js/common.js"></script>
 </body>

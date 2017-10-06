@@ -438,8 +438,8 @@
 *******************0px-320px****************
 **********************************************/
 @media (min-width: 0px) and (max-width: 600px){
-  .main_wrap_to_timer{
-  width: 250px;
+.main_wrap_to_timer{
+  width: 230px;
   margin: 0px auto;
 }
 
