@@ -20,6 +20,11 @@ body:before {
 	background-color: rgba(0, 0, 0, .7);
 	z-index: -1;
 }
+.subcribe_twitter-timeline{
+	max-width: 600px;
+    margin: 0px auto;
+    padding: 0px 10px;
+}
 .store{
 	padding: 200px 0px 100px 0px;
 }
@@ -1317,9 +1322,6 @@ footer{
 }
 }
 }
-
-
-
 
 /*********************************************
 ********************A-D-A-P-T-I-V-E***********
