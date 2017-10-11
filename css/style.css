@@ -20,6 +20,37 @@ body:before {
 	background-color: rgba(0, 0, 0, .7);
 	z-index: -1;
 }
+.popup-content{
+	outline: none;	
+	color: #fff;
+	text-decoration: none;
+}
+.popup-content:visited{
+	outline: none;
+	color: #fff;
+	text-decoration: none;
+	border-color: transparent;
+}
+.popup-content:hover{
+	outline: none;
+	color: #fff;
+	text-decoration: none;
+	border-color: transparent;
+}
+.popup-content:focus{
+	outline: none;
+	color: #fff;
+	text-decoration: none;
+	border-color: transparent;
+}
+.popup-content:active{
+	outline: none;
+	color: #fff;
+	text-decoration: none;
+	border-color: transparent;
+}
+
+
 .subcribe_twitter-timeline{
 	max-width: 600px;
     margin: 0px auto;
@@ -772,6 +803,7 @@ to {
 	font-family: 'Roboto', sans-serif;
 	font-weight: 400;
 	text-transform: uppercase;
+	text-align: center;
 }
 .team{
 	text-align: center;
@@ -963,7 +995,7 @@ body{
 	margin: 0px auto;
 }
 .navbar-nav{
-	margin-left: 470px;
+	margin-left: 0px;
 }
 .store_txt_inbtn{
 	font-size: 10px;
@@ -1335,4 +1367,30 @@ footer{
 	display: none;
 
 }
+}
+
+/*********************************************
+********************A-D-A-P-T-I-V-E***********
+*******************0px-600px****************
+**********************************************/
+@media (min-width: 660px) and (max-width: 765px){
+
+.navbar-nav{
+	margin-left: 0px;
+}
+
+
+}
+
+/*********************************************
+********************A-D-A-P-T-I-V-E***********
+*******************0px-600px****************
+**********************************************/
+@media (min-width: 765px) and (max-width: 1200px){
+
+.navbar-nav{
+	margin-left: 0px;
+}
+
+
 }
