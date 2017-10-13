@@ -20,6 +20,9 @@ body:before {
 	background-color: rgba(0, 0, 0, .7);
 	z-index: -1;
 }
+#spoiler_busines{
+	
+}
 .popup-content{
 	outline: none;	
 	color: #fff;
