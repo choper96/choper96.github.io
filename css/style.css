@@ -766,6 +766,9 @@ to {
 	height: 500px;
 	padding-top: 200px;
 }
+.sale_mobile{
+	display: none;
+}
 .sale_title_h{
 	text-transform: uppercase;
 	text-align: center;
@@ -1039,10 +1042,10 @@ body{
     background-color: #000000;
 }
 .sale{
-	direction: none;
+	display:none;
 }
 .sale_mobile{
-	direction: block;
+	display:block;
 }
 
 .popup_mobile{
