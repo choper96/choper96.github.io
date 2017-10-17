@@ -58,7 +58,6 @@ body:before {
 	line-height: 26px;
 }
 .text-h{
-	font-size: 20px;
 	font-weight: 400;
 	font-family: 'Roboto', sans-serif;
 }
@@ -420,6 +419,9 @@ to {
 .about_rows{
 	height: 70vh;
 }
+.about_row_pom{
+	height: 60vh;
+}
 .about_picture_zone{
 	position: relative;
 	margin-top: 50%;
@@ -511,7 +513,7 @@ to {
 /*****DAG****/
 .about_img_dag{
 	position: absolute;
-	width: 500px;
+	width: 100%;
 	left: -50px;
 }
 .abot_titles_h_dag{
@@ -759,6 +761,7 @@ to {
 /**********************************************
 					SALE
 ***********************************************/
+
 .sale{
 	height: 500px;
 	padding-top: 200px;
@@ -774,6 +777,12 @@ to {
 	border: 1px solid #fff;
 	margin: 0px auto -80px auto; 
 	display: inline-block;
+}
+.sale_lines_mobile{
+	width: 0px;
+	height: 100px;
+	border: 1px solid #fff;
+	margin: 0px auto;
 }
 .sale_center_line{
 	display: block;
@@ -1029,7 +1038,12 @@ body{
     position: relative;
     background-color: #000000;
 }
-
+.sale{
+	direction: none;
+}
+.sale_mobile{
+	direction: block;
+}
 
 .popup_mobile{
 	display: block;
@@ -1055,11 +1069,6 @@ body{
 .team_ligtbox_imgzone{
 	text-align: center;
 }
-
-
-
-
-
 .media_img_zone{
 	position: relative;
 	margin: 0px 50px;
@@ -1170,7 +1179,7 @@ height: 250px;
 
 /*****SMART****/
 .about_img_smart{
-	width: 280px;
+	width: 100%;
 	left: 0;
 }
 .abot_titles_h_smart{
@@ -1187,7 +1196,7 @@ height: 250px;
 }
 /*****DAG****/
 .about_img_dag{
-	width: 280px;
+	width: 100%;
 	left: 0;
 }
 .abot_titles_h_dag{
@@ -1205,7 +1214,7 @@ height: 250px;
 }
 /*****DOGOVOR****/
 .about_img_dogovor{
-	width: 200px;
+	width: 100%;
 	left: 200;
 	top:0;
 }
@@ -1220,7 +1229,7 @@ height: 250px;
 }
 /*****BUSINES****/
 .about_img_busines{
-	width: 270px;
+	width: 100%;
 	left: 0;
 	top:0;
 }
@@ -1239,7 +1248,7 @@ height: 250px;
 }
 /*****CARTS****/
 .about_img_carts{
-	width: 270px;
+	width: 100%;
 	left: 0;
 	top:0;
 }
@@ -1258,7 +1267,7 @@ height: 250px;
 }
 /*****CASHBACK****/
 .about_img_cashback{
-	width: 280px;
+	width: 100%;
 	left: 0;
 	top:0;
 }
@@ -1466,4 +1475,21 @@ footer{
 }
 
 
+}
+
+
+
+/*********************************************
+********************A-D-A-P-T-I-V-E***********
+*******************600px-hzpx****************
+**********************************************/
+@media (min-width:600px) and (max-width: px){
+
+
+
+
+
+
+
+}
 }
