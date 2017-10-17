@@ -20,6 +20,11 @@ body:before {
 	background-color: rgba(0, 0, 0, .7);
 	z-index: -1;
 }
+
+.popup_mobile{
+	display: none;
+}
+
 .team_text_p_ligtbox{
 	width: 100%;
 	text-align: center;
@@ -1027,8 +1032,12 @@ body{
 }
 
 
-
-
+.popup_mobile{
+	display: block;
+}
+.popup_large{
+	display: none;
+}
 .team_lightbox_socialimg1{
 	position: static;
 	display: inline;
