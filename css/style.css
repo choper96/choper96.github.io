@@ -24,7 +24,6 @@ body:before {
 .popup_mobile{
 	display: none;
 }
-
 .team_text_p_ligtbox{
 	width: 100%;
 	text-align: center;
@@ -375,7 +374,7 @@ to {
 ***********************************************/
 .video{
 	padding-top:100px;
-	height: 100vh;
+	height: 70vh;
 }
 .viteo_title_h{
 	margin: 0px auto 0px auto;
@@ -416,10 +415,10 @@ to {
 					ABOUT
 ***********************************************/
 .about{
-	padding-top: 50px;
+	padding-top:0px;
 }
 .about_rows{
-	height: 100vh;
+	height: 70vh;
 }
 .about_picture_zone{
 	position: relative;
