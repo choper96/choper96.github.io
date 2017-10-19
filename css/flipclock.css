@@ -437,7 +437,7 @@
 ********************A-D-A-P-T-I-V-E***********
 *******************0px-320px****************
 **********************************************/
-@media (min-width: 0px) and (max-width: 600px){
+@media (min-width: 0px) and (max-width: 768px){
 .main_wrap_to_timer{
   width: 230px;
   margin: 0px auto;
