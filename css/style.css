@@ -530,7 +530,7 @@ to {
 	font-family: 'Roboto', sans-serif;
 	font-weight: 300;
 	line-height: 26px;
-	width: 440px;
+	width: 100%;
 }
 .left_line_dag{
 	height: 20px;
@@ -884,6 +884,10 @@ to {
 /**********************************************
 					SUBSCRIBE
 ***********************************************/
+.subscribe_form{
+	margin: 0px auto;
+	width: 900px;
+}
 .subscribe{
 	padding-top: 200px;
 	padding-bottom: 50px;
@@ -1035,6 +1039,11 @@ footer{
 *******************0px-600px****************
 **********************************************/
 @media (min-width: 0px) and (max-width: 600px){
+
+.subscribe_form{
+	margin: 0px auto;
+	width: 100px;
+}
 body{
 	background-image: none ;
     color:#fff;
@@ -1046,6 +1055,7 @@ body{
 }
 .sale_mobile{
 	display:block;
+	padding-top: 100px;
 }
 
 .popup_mobile{
@@ -1213,12 +1223,11 @@ height: 250px;
 	margin-left: -30px;
 }
 .about_text_p_dag{
-	width: 300px;
 	width: 100%;
 }
 /*****DOGOVOR****/
 .about_img_dogovor{
-	width: 100%;
+	width: 250px;
 	left: 200;
 	top:0;
 }
@@ -1288,16 +1297,10 @@ height: 250px;
 	width: 300px;
 	width: 100%;
 }
-/*********************
-	   TEAM
-**********************/
-.team{
-}
+
 /*********************
 	WHITE PAPER
 **********************/
-.white_papper{
-}
 .white_papper_img{
 	margin: 40px auto 0px auto;
 	width: 250px;
@@ -1354,7 +1357,8 @@ height: 250px;
 /*********************
 	SUBSCRIBE
 **********************/
-.subscribe{
+.subscribe_form{
+	margin: 0px auto;width: 400px;
 }
 .subscribe_center_line{
 	display: block;
@@ -1440,15 +1444,33 @@ footer{
 }
 }
 
-
-
-
+/*********************************************
+********************A-D-A-P-T-I-V-E***********
+*******************0px-460px****************
+**********************************************/
+@media (min-width: 0px) and (max-width: 460px){
+.subscribe_form{
+	margin: 0px auto;
+	width: 280px;
+}
+}
 /*********************************************
 ********************A-D-A-P-T-I-V-E***********
 *******************600px-768px****************
 **********************************************/
 @media (min-width: 601px) and (max-width: 768px){
-	.navbar-nav{
+.about_arow{
+	top: 10px;
+}
+.subscribe_form{
+	margin: 0px auto;
+	width: 400px;
+}
+.white_papper_img{
+	margin: 40px auto 0px auto;
+	width: 350px;
+}
+.navbar-nav{
 	margin-left: 0px;
 }
 .sale_lines{
@@ -1565,8 +1587,7 @@ footer{
 	top:-250px;
 	left: 0;
 }
-.subscribe{
-}
+
 .subscribe_center_line{
 	display: block;
 	margin: 0px auto;
@@ -1595,9 +1616,6 @@ footer{
 	max-width: 400px;
 	margin: 0px auto;
 }
-
-
-
 }
 
 
@@ -1606,17 +1624,348 @@ footer{
 *******************768px-1024px****************
 **********************************************/
 @media (min-width: 768px) and (max-width: 1024px){
+.roadmap{
+	margin-top: 300px;
+}
+.about_img_smart{
+	width: 100%;
+	top:-250px;
+	left: 0;
+}
+.about_img_dag{
+	width: 100%;
+	top:-350px;
+}
+.about_img_cashback{
+	width: 100%;
+	top:-250px;
+	left: 0;
+}
+.about_img_dogovor{
+	top:-250px;
+	left: 20%;
+	width: 50%;
+}
+.about_img_busines{
+	width: 100%;
+	top:-250px;
+	left: 0;
+}
+.about_img_carts{
+	width: 100%;
+	top:-250px;
+	left: 0;
+}
+.subscribe_form{
+	margin: 0px auto;width: 400px;
+}
+.media_img_zone{
+	max-width: 400px;
+	margin: 0px auto;
+}
+.subscribe_input{
+	width: 400px;
+	height: 50px;
+	margin: 15px auto 10px auto;
+	padding-left: 70px;
+	display: block;
+	padding-left: 150px;
+}
+.subcsribe_btn{
+	display: block;
+	width: 400px;
+	line-height: 49px;
+	margin: 15px auto 10px auto;
+}
+.subcsribe_btn:hover{
+	display: block;
+	margin: 15px auto 10px auto;
+}
+.white_papper_img{
+	display: block;
+	margin: 40px auto 0px auto;
+	width: 300px;
+}
+.white_papper_h{
+	letter-spacing:30px;
+	width: 200px;
+	margin: 120px auto 0px 0px;
+	padding-left: 30px;
+	font-size: 60px;
+	text-transform: uppercase;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+}
+.white_paper_center_line{
+	display: block;
+	margin: 0px auto;
+	height: 20px;
+	width: 300px;
+}
+.roadmap_right_line{
+	width: 340px;
+	height: 0px;
+	border:1px solid #fff;
+	margin: -13px auto 0px 26px;
+}
+.roadmap_circle_right{
+	width: 100px;
+	height: 100px;
+	margin: -57px auto 0px 275px;
+	border-radius: 50%;
+}
+.roadmap_left_line{
+	width: 300px;
+	height: 0px;
+	border:1px solid #fff;
+	margin: -13px auto 0px -300px;
+}
+.roadmap_circle_left{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	margin-top: -65px;
+	margin-left: 35px;
+	position: static;
+}
+.roadmap_year_right{
+	margin-right:-10px;
+
+}
+.roadmap_text_p_right{
+	margin: 0px -10px 0px auto;
+}
+.navbar-nav{
+	margin-left: 0px;
+}
+}
+
+/*********************************************
+********************A-D-A-P-T-I-V-E***********
+*******************885px-1024****************
+**********************************************/
+@media (min-width: 885px) and (max-width: 1024px){
+.roadmap_right_line{
+	width: 340px;
+	height: 0px;
+	border:1px solid #fff;
+	margin: -13px auto 0px 26px;
+}
+.roadmap_circle_right{
+	width: 100px;
+	height: 100px;
+	margin: -57px auto 0px 275px;
+	border-radius: 50%;
+}
+.roadmap_left_line{
+	width: 400px;
+	height: 0px;
+	border:1px solid #fff;
+	margin: -13px auto 0px -400px;
+}
+.roadmap_circle_left{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	margin-top: -65px;
+	margin-left: 35px;
+	position: static;
+}
+.roadmap_year_right{
+	margin-right:-10px;
+
+}
+.roadmap_text_p_right{
+	margin: 0px -10px 0px auto;
+}
+}
+/*********************************************
+********************A-D-A-P-T-I-V-E***********
+*******************990px-1024px****************
+**********************************************/
+@media (min-width: 990px) and (max-width: 1024px){
+
+.about_img_smart{
+	width: 100%;
+	top:50px;
+	left: 0;
+}
+.about_img_dag{
+	width: 100%;
+	top:50px;
+}
+.about_img_cashback{
+	width: 100%;
+	top:0px;
+	left: 0;
+}
+.about_img_dogovor{
+	top:0px;
+	left: 20%;
+	width: 50%;
+}
+.about_img_busines{
+	width: 100%;
+	top:0px;
+	left: 0;
+}
+.about_img_carts{
+	width: 100%;
+	top:0px;
+	left: 0;
+}
+}
 
 
 /*********************************************
 ********************A-D-A-P-T-I-V-E***********
-*******************0px-600px****************
+*******************992px-1024****************
 **********************************************/
-@media (min-width: 768px) and (max-width: 1200px){
+@media (min-width: 992px) and (max-width: 1024px){
+	.white_papper_h{
+	letter-spacing:30px;
+	width: 400px;
+	margin: 120px auto 0px 0px;
+	padding-left: 70px;
+	font-size: 60px;
+	text-transform: uppercase;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+}
+}
 
+/*********************************************
+********************A-D-A-P-T-I-V-E***********
+*******************1024px-1280px****************
+**********************************************/
+@media (min-width: 1024px) and (max-width: 1280px){
 .navbar-nav{
-	margin-left: 0px;
+	margin-left: 250px;
+}
+.about_img_smart{
+	width: 100%;
+	top:50px;
+	left: 0;
+}
+.about_img_dag{
+	width: 100%;
+	top:50px;
+}
+.about_img_cashback{
+	width: 100%;
+	top:0px;
+	left: 0;
+}
+.about_img_dogovor{
+	top:0px;
+	left: 20%;
+	width: 50%;
+}
+.about_img_busines{
+	width: 100%;
+	top:0px;
+	left: 0;
+}
+.about_img_carts{
+	width: 100%;
+	top:0px;
+	left: 0;
+}
+.roadmap_right_line{
+	width: 440px;
+	height: 0px;
+	border:1px solid #fff;
+	margin: -13px auto 0px 26px;
+}
+.roadmap_circle_right{
+	width: 100px;
+	height: 100px;
+	margin: -57px auto 0px 375px;
+	border-radius: 50%;
+}
+.roadmap_left_line{
+	width: 480px;
+	height: 0px;
+	border:1px solid #fff;
+	margin: -13px auto 0px -480px;
+}
+.roadmap_circle_left{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	margin-top: -65px;
+	margin-left: 35px;
+	position: static;
+}
+/*********************************************
+********************A-D-A-P-T-I-V-E***********
+*******************1220px-1280px****************
+**********************************************/
+@media (min-width: 1220px) and (max-width: 1280px){
+.navbar-nav{
+	margin-left: 400px;
+}
+.about_img_smart{
+	width: 100%;
+	top:50px;
+	left: 0;
+}
+.about_img_dag{
+	width: 100%;
+	top:50px;
+}
+.about_img_cashback{
+	width: 100%;
+	top:0px;
+	left: 0;
+}
+.about_img_dogovor{
+	top:0px;
+	left: 20%;
+	width: 50%;
+}
+.about_img_busines{
+	width: 100%;
+	top:0px;
+	left: 0;
+}
+.about_img_carts{
+	width: 100%;
+	top:0px;
+	left: 0;
+}
+.roadmap_right_line{
+	width: 540px;
+	height: 0px;
+	border:1px solid #fff;
+	margin: -13px auto 0px 26px;
+}
+.roadmap_circle_right{
+	width: 100px;
+	height: 100px;
+	margin: -57px auto 0px 475px;
+	border-radius: 50%;
+}
+.roadmap_left_line{
+	width: 570px;
+	height: 0px;
+	border:1px solid #fff;
+	margin: -13px auto 0px -570px;
+}
+.roadmap_circle_left{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	margin-top: -65px;
+	margin-left: 35px;
+	position: static;
 }
 
 
+
 }
+
+
+
