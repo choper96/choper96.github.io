@@ -20,7 +20,6 @@ body:before {
 	background-color: rgba(0, 0, 0, .7);
 	z-index: -1;
 }
-
 .popup_mobile{
 	display: none;
 }
@@ -90,8 +89,6 @@ body:before {
 	text-decoration: none;
 	border-color: transparent;
 }
-
-
 .subcribe_twitter-timeline{
 	max-width: 600px;
     margin: 0px auto;
@@ -382,7 +379,6 @@ to {
 	text-transform: uppercase;
 	text-align: center;
 }
-
 .video_center_line{
 	display: block;
 	margin: 0px auto;
@@ -768,6 +764,7 @@ to {
 }
 .sale_mobile{
 	display: none;
+	
 }
 .sale_title_h{
 	text-transform: uppercase;
@@ -776,10 +773,13 @@ to {
 }
 .sale_lines{
 	height: 0px;
-	width: 100%;
+	width: 40px;
 	border: 1px solid #fff;
-	margin: 0px auto -80px auto; 
 	display: inline-block;
+	position: absolute;
+	left: 275px;
+	top: 97px;
+
 }
 .sale_lines_mobile{
 	width: 0px;
@@ -879,6 +879,9 @@ to {
 	margin-top: 25px;
 }
 .team_line_3{
+	margin-top: 25px;
+}
+.team_line_4{
 	margin-top: 25px;
 }
 /**********************************************
@@ -1443,7 +1446,6 @@ footer{
 	margin: auto 10px;
 }
 }
-
 /*********************************************
 ********************A-D-A-P-T-I-V-E***********
 *******************0px-460px****************
@@ -1474,7 +1476,9 @@ footer{
 	margin-left: 0px;
 }
 .sale_lines{
-	margin-top: 150px;
+	width: 30px;
+	left: 135px;
+	top: 127px;
 }
 footer{
 	text-align: center;
@@ -1617,8 +1621,6 @@ footer{
 	margin: 0px auto;
 }
 }
-
-
 /*********************************************
 ********************A-D-A-P-T-I-V-E***********
 *******************768px-1024px****************
@@ -1739,8 +1741,12 @@ footer{
 .navbar-nav{
 	margin-left: 0px;
 }
+.sale_lines{
+	width: 30px;
+	left: 175px;
+	top: 127px;
 }
-
+}
 /*********************************************
 ********************A-D-A-P-T-I-V-E***********
 *******************885px-1024****************
@@ -1774,11 +1780,11 @@ footer{
 }
 .roadmap_year_right{
 	margin-right:-10px;
-
 }
 .roadmap_text_p_right{
 	margin: 0px -10px 0px auto;
 }
+
 }
 /*********************************************
 ********************A-D-A-P-T-I-V-E***********
@@ -1815,9 +1821,12 @@ footer{
 	top:0px;
 	left: 0;
 }
+.sale_lines{
+	width: 20px;
+	left: 232px;
+	top: 98px;
 }
-
-
+}
 /*********************************************
 ********************A-D-A-P-T-I-V-E***********
 *******************992px-1024****************
@@ -1835,7 +1844,6 @@ footer{
 	font-weight: 400;
 }
 }
-
 /*********************************************
 ********************A-D-A-P-T-I-V-E***********
 *******************1024px-1280px****************
@@ -1898,6 +1906,11 @@ footer{
 	margin-top: -65px;
 	margin-left: 35px;
 	position: static;
+}
+.sale_lines{
+	width: 20px;
+	left: 233px;
+	top: 97px;
 }
 /*********************************************
 ********************A-D-A-P-T-I-V-E***********
@@ -1962,9 +1975,11 @@ footer{
 	margin-left: 35px;
 	position: static;
 }
-
-
-
+.sale_lines{
+	width: 20px;
+	left: 283px;
+	top: 97px;
+}
 }
 
 
