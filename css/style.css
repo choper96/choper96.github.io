@@ -1,4 +1,6 @@
-
+*{
+		font-family: 'Roboto', sans-serif;
+}
 body{
 	background-image: url(../img/f2.jpg) ;
     -moz-background-size: cover;
@@ -25,9 +27,9 @@ body:before {
 	font-family: 'Arkhip_font', sans-serif;
 }
 .pre-sale{
-	border: 1px solid #fff;
 	padding-top: 100px;
 }
+
 .pre-sale p{
 	font-size: 21PX;
 	font-weight: 300;
@@ -36,10 +38,12 @@ body:before {
 	max-width: 700px;
 	text-align: center;
 	margin: 0px auto;
+	padding: 15px 20px 20px 0px;
 }
 .pre-sale a{
-	text-decoration: none underline;
+	font-family:,sans-serif;
 	color: #fff;
+	font-weight: 500;
 }
 .popup_mobile{
 	display: none;
