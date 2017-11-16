@@ -43,7 +43,7 @@ body:before {
 .pre-sale a{
 	font-family:,sans-serif;
 	color: #fff;
-	font-weight: 500;
+	text-decoration: underline;
 }
 .popup_mobile{
 	display: none;
