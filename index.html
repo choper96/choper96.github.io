@@ -18,7 +18,15 @@
 </head>
 <body>
 
+      
                                          <!---PRELOADER-->
+
+<div id="bg_popup">
+  <div id="popup">
+  <a  id="setCookie" class="close" href="#" title="Закрыть" onclick="document.getElementById('bg_popup').style.display='none'; return false;">X</a>
+
+</div>
+</div>
 
 <div id="p_prldr">
   <div class="img_zone">
@@ -26,6 +34,8 @@
     <div class="round1"></div>
   </div>
 </div>
+
+
 
 
 
@@ -1320,7 +1330,7 @@
 
 
 
-
+<script src="js/jquery-3.2.1.min.js"></script>
 <script src="js/typed.min.js"></script>
 <script>
 var typed = new Typed('.element', {
@@ -1332,7 +1342,27 @@ var typed = new Typed('.element', {
   loop: true,
 });
 </script>
-<script src="js/jquery-3.2.1.min.js"></script>
+
+<script src="js/jquery.cookie.js"></script>
+
+<script type="text/javascript">
+$(document).ready(function(){
+$("#setCookie").click(function () {
+$.cookie("popup", "0", {expires: 0} );
+$("#bg_popup").hide();
+});
+ 
+if ( $.cookie("popup") == null )
+{
+setTimeout(function(){
+$("#bg_popup").show();
+}, 0)
+}
+else { $("#bg_popup").hide();
+}
+});
+    </script>
+
 
 <script type="text/javascript">$(window).on('load', function () {
     var $preloader = $('#p_prldr'),

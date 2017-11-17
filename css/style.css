@@ -23,6 +23,40 @@ body:before {
 	background-color: rgba(0, 0, 0, .7);
 	z-index: -1;
 }
+
+
+
+/*Модальное окно*/
+#bg_popup{
+	position: fixed;
+	z-index: 99999;
+	background: rgba(0, 0, 0, 0.8);
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	display: none;
+}   
+#popup {
+	background:#fff;
+	width: 350px;
+	margin: 25% auto;
+	padding: 5px 20px;
+	position: relative;
+}
+.close{
+	display:block;
+	position:absolute;
+	top:5px;
+	right:5px;
+	width:20px;
+	height:20px;
+	color:#555;
+	background:#1BA600;
+	cursor:pointer;
+}
+
+
 .mai_nav_words{
 	font-family: 'Arkhip_font', sans-serif;
 }
@@ -188,9 +222,16 @@ body:before {
 	bottom:0;
 	z-index: 30;
 	background: #fff;
-
+	z-index: 9999999;
+	display: grid;
+	height: 100vh;
+	grid-template-columns: 1fr;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
 }
-.contpre small{font-size:25px;
+.contpre small{
+	font-size:25px;
 }
 .contpre{
 	width: 250px;
