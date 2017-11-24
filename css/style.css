@@ -196,11 +196,13 @@ header a:hover{
 	text-align: right;
 }
 .about_text_area_odd p{
+	line-height: 26px;
 	font-size: 21PX;
 	font-weight: 300;
 	font-family: 'Roboto Regular';
 }
-.about_text_area_odd p{
+.about_text_area_even p{
+	line-height: 26px;
 	font-size: 21PX;
 	font-weight: 300;
 	font-family: 'Roboto Regular';
