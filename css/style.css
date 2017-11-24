@@ -189,19 +189,21 @@ header a:hover{
 .about_text_area_odd{
 	max-width: 400px;
 	margin: 0px auto;
-	font-weight: 300;
-	font-size: 21PX;
-	font-weight: 300;
-	font-family: 'Roboto', sans-serif;
 }
 .about_text_area_even{
 	max-width: 400px;
 	margin: 0px auto;
-	font-weight: 300;
 	text-align: right;
+}
+.about_text_area_odd p{
 	font-size: 21PX;
 	font-weight: 300;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Roboto Regular';
+}
+.about_text_area_odd p{
+	font-size: 21PX;
+	font-weight: 300;
+	font-family: 'Roboto Regular';
 }
 .about_line{
 	height: 3px;
