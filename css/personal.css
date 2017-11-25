@@ -87,6 +87,12 @@ form h1{
 	color: #323232;
 	text-align: center;
 	padding-top: 30px;
+	margin-bottom: 5px;
+}
+.black_line{
+	height: 3px;
+	display: block;
+	margin:0px auto;
 }
 form p{
 	color: #323232;
@@ -111,4 +117,11 @@ form a{
 #recover_form{
 	height: 450px;
 }
-
+#change_form{
+	height: 565px;
+}
+.personal_rights{
+	text-align: center; 
+	line-height: 25px;
+	text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}

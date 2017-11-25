@@ -70,7 +70,6 @@ header a:hover{
 ****M-A-I-N****
 ***************/
 .main{
-	background-image: url(../img/Background house.png);
 	background-position: top center;
 	background-repeat: no-repeat;
 	min-height: 100vh;
@@ -82,168 +81,63 @@ header a:hover{
 	position: relative;
 	z-index: 4;
 }
-.main img{
+#faq_form{
+	height: 670px;
+}
+textarea{
+	height: 100px;
 	width: 300px;
+	border-radius: 25px;
+	border: 1px solid #323232;
 	display: block;
 	margin: 0px auto;
-}
-.main h1{
-	text-transform: uppercase;
-	text-align: center;
-	margin: 10px 0px;
-	margin-bottom: 20px;
-}
-.main form{
-	width: 300px;
-	height: 45px;
-	position: relative;
-	margin-bottom: 20px;
-}
-.main form div{
-	cursor: pointer;
-}
-.main_email{
-	border: 1px solid transparent;
 	outline: none;
 	text-align: center;
-	border-radius: 25px 0px 0px 25px;
-	height: 100%;
-	width: 200px;
 }
-.main_submit{
-	border: 1px solid transparent;
-	outline: none;
-	text-align: center;	
-	height: 100%;
-	width: 100px;
-	background-color: #33b5e5;
-	color: #fff;
-	text-transform: uppercase;
-	border-radius: 0px 25px 25px 0px;
-	color: #33b5e5;
-	cursor: pointer;
-}
-.main form div{
-	font-size: 30px;
-	text-transform: uppercase;
-	position: absolute;
-	right: 40px;
-	bottom: 5px;
-}
-.main_social_area{
-	margin: 0px auto;
-	max-width: 660px;
-	word-spacing: 30px;
+.title{
+	height: 100px;
 	text-align: center;
-	padding: 0px 10px;
-}
-.main_social_area img{
-	display: inline-block;
-	width: 50px;
-	transition: 0.2s;
-}
-.main_social_area img:hover{
-	filter: drop-shadow(0px 0px 3px rgba(222,222,222, 0.7))
-}
-/**************
-***A-B-O-U-T***
-***************/
-.about{
-	padding: 50px 0px;
-	background-position: top center;
-	background-repeat: repeat;
-	min-height: 100vh;
-	background-size: 100% auto;
-	background-image: url(../img/ABOUT_BG.png);
-	background-position: top center;
-	background-size: 100% auto;
-	background-color: #323232;
-	z-index: z-index: auto;;
-}
-.shadow{
-	box-shadow:0px 0px 28px 16px rgba(0,0,0,0.27);
-	-webkit-box-shadow:0px 0px 28px 16px rgba(0,0,0,0.27);
-	-moz-box-shadow:0px 0px 28px 16px rgba(0,0,0,0.27);
-}
-.about div{
-	height: 260px;
 	display: grid;
-	align-content: center;
-}
-.about h1{
+	align-items: center;
+	background-color: #323232;
 	text-transform: uppercase;
-	margin-bottom: 0px;
 }
-.about_sections {
-	grid-template-columns: 2fr 3fr 1fr 3fr 2fr;
+.title_down_deg{
+	height: 200px;
+	background-color: #323232;
+	-webkit-clip-path: ellipse(50% 40% at 50% 4%);
+	clip-path: ellipse(60% 50% at 50% 4%);
 }
-.about_sections img{
+/******************
+*Q-U-E-S-T-I-O-N-S*
+*******************/
+.questions a{
 	display: block;
-	width: 100%;
-	transition: 0.2s;
+	color: #33b5e5;
+	font-family: 'Roboto Regular', arial;
+  	font-weight: 400;
+  	padding-top: 15px;
+  	font-size: 21px;
+  	text-decoration: none;
+  	text-align: center;
 }
-.about_img_area{
-	max-width: 400px;
-	margin: 0px auto;
-}
-.about_text_area_odd{
-	max-width: 400px;
-	margin: 0px auto;
-}
-.about_text_area_even{
-	max-width: 400px;
-	margin: 0px auto;
-	text-align: right;
-}
-.about_text_area_odd p{
-	line-height: 26px;
-	font-size: 21PX;
-	font-weight: 300;
-  	font-family: 'Roboto Regular', arial;
-}
-.about_text_area_even p{
-	line-height: 26px;
-	font-size: 21PX;
-	font-weight: 300;
-  	font-family: 'Roboto Regular', arial;
-}
-.about_line{
-	height: 3px;
+.questions a:hover{
+	text-decoration: underline;
 }
 /**************
-***S-T-O-R-E***
+*A-N-S-W-E-R-S*
 ***************/
-.store{
-	z-index: -3;
+.answers{
+	padding: 100px 100px;
 }
-.store h1{
-	text-transform: uppercase;
-	text-align: center;
-  	font-family: 'Roboto Regular', arial;
-  	color: #000;
-  	width: 500px;
-  	margin: 0px auto;
-  	margin-top:0px;
-  	padding-top: 50px;
-  	z-index: -3;
+.answer_area h1{
+	color: #000;
 }
-.store_img_area{
-	text-align: center;
-	z-index: -3;
+.answer_area ul{
+	color: #323232;
 }
-.store_img_area img{
-	z-index: -3;
-	background-color: #000;
-	width: 200px;
-	display: inline;
-	border-radius: 10px;
-	margin: 20px 20px;
-	padding: 10px 20px;
-}
-.store_screen{
-	width: 100%;
-	display: block;
-	z-index: 1;
+.answer_area p{
+	color: #323232;
 }
 /**************
 **F-O-O-T-E-R**
@@ -309,4 +203,3 @@ footer div{
 	word-spacing: 10px;
 	line-height: 0px;
 }
-
