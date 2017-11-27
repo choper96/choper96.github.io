@@ -67,7 +67,7 @@ header a:hover{
 .form_area{
 	display: grid;
 	height: 100vh;
-	min-height: 900px;
+	min-height: 800px;
 	align-items: center;
 	align-content:  center;
 }

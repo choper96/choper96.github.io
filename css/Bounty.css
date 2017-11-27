@@ -116,8 +116,10 @@ header a:hover{
 .main_wrap{
 	color: #fff;
 	background-color: #323232;
-	padding: 40px 40px;
-	border: 2px solid #fff;
+	padding: 100px 200px;
+-webkit-clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+z-index: -1;
 }
 /**************
 ****T-E-X-T****
