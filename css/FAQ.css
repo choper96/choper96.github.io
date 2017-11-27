@@ -72,7 +72,7 @@ header a:hover{
 .main{
 	background-position: top center;
 	background-repeat: no-repeat;
-	min-height: 100vh;
+	height: 100vh;
 	background-size: 100% auto;
 	display: grid;
 	align-content: center;
@@ -80,6 +80,7 @@ header a:hover{
 	text-align: center;
 	position: relative;
 	z-index: 4;
+	min-height: 1000px;
 }
 #faq_form{
 	height: 670px;
