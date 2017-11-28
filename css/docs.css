@@ -99,6 +99,24 @@ header a:hover{
 .parts p{
 	color: #323232;
 }
+.download{
+	padding-top: 30px ;
+	width: 100px; text-decoration: none;
+	display: block;
+	margin:0px auto;
+}
+.download p{
+	margin-top: 5px;
+	text-align: center; 
+	color: #33b5e5;
+}
+.download div{
+	margin:0px auto;
+	border: 2px solid #33b5e5; 
+	width: 60px;
+	padding: 10px 10px;
+	border-radius: 15px;
+}
 /**************
 **F-O-O-T-E-R**
 ***************/
