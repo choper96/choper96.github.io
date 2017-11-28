@@ -106,9 +106,46 @@ header a:hover{
 	margin-top: 50px;
 }
 .main_column2{
-	background-color: #fff;
 	height: 700px;
 	border-radius: 25px;
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 200px auto;
+	grid-row-gap: 20px;
+}
+.main_column2 div{
+	background-color: #fff;
+	border-radius: 25px;	
+	padding: 10px;
+}
+.main_row1{
+	display: grid;
+	grid-template-columns: 3fr 2fr 3fr 2fr;
+	grid-column-gap: 10px;
+	color: #000;
+	text-align: center;
+}
+.invest{
+	text-decoration: none;
+	background-color: #33b5e5;
+	color: #fff;
+	display: block;
+	text-align: center;
+	border-radius: 15px;
+	height: 50px;
+	line-height: 50px;
+	margin-top: 40px;
+}
+.crypto span{
+	color: #fff;
+	margin: 0px 10px;
+	background-color: #33b5e5;
+	padding: 10px 15px;
+	border-radius: 10px;
+}
+.cash span{
+	margin: 0px 10px;
+	padding: 10px 30px;
 }
 .photo_area{
 	height: 350px;
@@ -124,13 +161,72 @@ header a:hover{
 .column1_Info{
 	display: grid;
 	grid-gap: 10px;
-	grid-template-columns: 40px auto;
+	grid-template-columns: 30px auto;
 	grid-template-rows: 40px 40px 40px;
+	align-content: center;
+	align-items: center;
 }
 .column1_Info img{
 	width: 100%;
 }
-.column1_Info div{
+.main_row2 {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 30px auto auto;
+	grid-gap: 20px;
+}
+.main_row2 p{
+	color: #000;
+	text-align: center;
+}
+.main_row2 a{
+	text-align: center;
+	text-transform: uppercase;
+	background-color: #fff;
+	color: #000;
+	display: block;
+	height: 50px;
+	line-height: 50px;
+	border-radius: 15px;
+	display: grid;
+	margin-top: 100px;
+	text-decoration: none;
+}
+.main_row2 div{
+	background-color: #33b5e5;
+}
+.main_row2-column1{
+	display: grid;
+	padding: 0;
+	margin: 0;
+	grid-template-columns: 1fr;
+	text-align: center;
+	align-items: bottom;
+}
+.main_row2-column2{
+	display: grid;
+	padding: 0;
+	margin: 0;
+	grid-template-columns: 1fr;
+	text-align: center;
+	align-items: bottom;
+}
+.main_row2-column1 p{
+	margin-top: 70px;
+}
+.main_row2-column3{
+	display: grid;
+	padding: 0;
+	margin: 0;
+	grid-template-columns: 1fr;
+	text-align: center;
+	align-content: bottom;
+	align-content: bottom;
+
+}
+.main_row2_columns{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
 }
 /**************
 **F-O-O-T-E-R**
