@@ -85,7 +85,7 @@ header a:hover{
 	background-color: #fff;
 	height: 700px;
 	border-radius: 25px;
-	padding: 10px;
+	padding: 20px;
 	color: #000;
 }
 .main_column1 h3{
@@ -93,7 +93,7 @@ header a:hover{
 }
 .main_column1 a{
 	display: block;
-	width: 200px;
+	width: 100%;
 	margin: 0px auto;
 	background-color: #33b5e5;
 	height: 50px;	
@@ -103,7 +103,10 @@ header a:hover{
 	text-align: center;
 	text-transform: uppercase;
 	line-height: 50px;
-	margin-top: 50px;
+	margin-top: 60px;
+}
+.main-column2-row1-column4{
+
 }
 .main_column2{
 	height: 700px;
@@ -116,14 +119,14 @@ header a:hover{
 .main_column2 div{
 	background-color: #fff;
 	border-radius: 25px;	
-	padding: 10px;
 }
 .main_row1{
 	display: grid;
-	grid-template-columns: 3fr 2fr 3fr 2fr;
+	grid-template-columns: 3fr 1fr 3fr 3fr;
 	grid-column-gap: 10px;
 	color: #000;
 	text-align: center;
+	padding: 20px;
 }
 .invest{
 	text-decoration: none;
@@ -172,25 +175,13 @@ header a:hover{
 .main_row2 {
 	display: grid;
 	grid-template-columns: 1fr;
-	grid-template-rows: 30px auto auto;
+	grid-template-rows: 50px auto auto;
 	grid-gap: 20px;
+	padding: 20px;
 }
 .main_row2 p{
 	color: #000;
 	text-align: center;
-}
-.main_row2 a{
-	text-align: center;
-	text-transform: uppercase;
-	background-color: #fff;
-	color: #000;
-	display: block;
-	height: 50px;
-	line-height: 50px;
-	border-radius: 15px;
-	display: grid;
-	margin-top: 100px;
-	text-decoration: none;
 }
 .main_row2 div{
 	background-color: #33b5e5;
@@ -216,17 +207,34 @@ header a:hover{
 }
 .main_row2-column3{
 	display: grid;
-	padding: 0;
 	margin: 0;
 	grid-template-columns: 1fr;
 	text-align: center;
 	align-content: bottom;
 	align-content: bottom;
-
 }
 .main_row2_columns{
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
+}
+div{
+
+}
+.main_row2 a{
+	text-align: center;
+	text-transform: uppercase;
+	background-color: #fff;
+	color: #000;
+	display: block;
+	height: 50px;
+	line-height: 50px;
+	border-radius: 15px;
+	display: grid;
+	text-decoration: none;
+	margin-top: 104px;
+}
+.main_row2-column3 {
+	padding: 0px 20px;
 }
 /**************
 **F-O-O-T-E-R**
