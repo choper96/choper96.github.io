@@ -1,0 +1,974 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>ICO</title>
+	<link rel="stylesheet" href="css/jquery.mCustomScrollbar.css">
+	 <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400&amp;subset=cyrillic" rel="stylesheet">
+	<link  href="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet"> <!-- 3 KB -->
+	<link rel="stylesheet" href="css/timer.css">
+	<link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" media="screen" href="css/Arkhip_font.css">
+    <link rel="icon" href="img/logo_circle.png">
+    <link rel="stylesheet" href="css/js_styles.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/lighbox.css">
+    
+</head>
+<body>
+<!--H_E_A_E_R-->
+<div class="header-bg"></div>
+	<header>
+		<div class="header_left_column">
+			<img src="img/logo_circle.png" alt="logo">
+			<a href="/">paymon</a>
+		</div>
+		<div class="header_right_column">
+			<a href="https://paymon.org">main</a>
+			<a href="bounty/">bounty</a>
+			<a href="#">White paper</a>
+			<a href="">personal account</a>
+			<a style="padding: 2px 4px; border: 1px solid #fff; border-radius: 5px"  href="ru/">Ru</a>
+		</div>
+	</header>
+<!--M_A_I_N-->
+	<section class="main">
+		<nav>
+		  <a href="#" class="menu-trigger">Menu</a>
+		  <ul>
+		  	<li><a href="/">MAIN</a></li>
+		    <li><a href="bounty/">BOUNTY</a></li>
+		    <li><a href="ru/">Ru</a></li>
+		  </ul>
+		</nav>
+		<img class="logo" src="img/MAIN-logo.png" alt="logo">
+		<div id="particles-js"></div>
+		<img class="bg_main" style="width: 100%;" src="img/Background house.png" alt="main_back_ground">
+		<p style="max-width: 300px; margin: 0px auto;">SUBSCRIBE FOR NEWS</p>
+		
+				<div class="" style="margin: 0px auto;">
+					<form id="form_eng" action="/" method="post">
+		              <input class="main_email" required type="email" name="email" placeholder="Enter your email"><input class="main_submit" type="submit" name="submit" value=".">
+					</form>
+				</div>
+
+				<span class="main_txt_start">start</span>
+
+				 <h1 style="max-width: 300px; margin: 0px auto;" style="font-size: 35px;font-weight: 100;">02 february 2018</h1>
+		
+		<div id="timer">
+			<img src="img/octagon.svg" alt="borders" id="item_border1">
+			<img src="img/octagon.svg" alt="borders" id="item_border2">
+			<img src="img/octagon.svg" alt="borders" id="item_border3">
+			<img src="img/octagon.svg" alt="borders" id="item_border4">
+			<div class="main_timer_items" id="days"></div>
+			<div class="main_timer_items" id="hours"></div>
+			<div class="br"></div>
+	 		<div class="main_timer_items" id="minutes"></div>
+			<div class="main_timer_items" id="seconds"></div>
+		</div>
+
+		<div style="height: 20px;max-width: 300px;"></div>
+
+		<div class="main_wrap_invest">
+			<div class="main_invest_form">
+				<a class="main_ivest_btn" href="">Invest now</a>
+				<a class="main_wp_btn" href="">White paper</a>
+			</div>
+		</div>
+	</section>
+<!--F_A_C_T_S-->
+<!--<section class="facts">
+	<div class="wrap_to_fact_slider">
+		<div data-width="1000" data-height="465" data-autoplay="5000" data-keyboard="true" data-loop="true" class="fotorama">
+	  		<div class="facts_items">
+	  			<div style="height: 160px"></div>
+				<div class="facts_items_txt">
+					<div class="heads_area">
+						<img class="facts_slider_heads_top" src="img/1.png" alt="">
+					</div>
+					<div class="number_and_txt">
+						<div>
+							<img src="img/number_fact_1.png" alt="">
+						</div>
+						<div>
+							<p>сотрудников, которые работают каждый день над улучшением платформы "Paymon", чтобы каждый наш пользователь оставался с нами на долгое время.</p>
+						</div>
+					</div>
+					<div class="heads_area">
+						<img class="facts_slider_heads_bot" src="img/1.png" alt="">
+					</div>
+				</div>		
+	  		</div>
+	  		<div class="facts_items">
+	  			<div style="height: 160px"></div>
+				<div class="facts_items_txt">
+					<div class="heads_area">
+						<img class="facts_slider_heads_top" src="img/2.png" alt="">
+					</div>
+					<div class="number_and_txt">
+						<div>
+							<img src="img/number_fact_2.png" alt="">
+						</div>
+						<div>
+							<p>платформы, на которых доступно MVP. Web, iOS, Android Вы уже можете установить приложение "Paymon" и оценить наши старания.</p>
+						</div>
+					</div>
+					<div class="heads_area">
+						<img class="facts_slider_heads_bot" src="img/2.png" alt="">
+					</div>
+				</div>		
+	  		</div>
+	  		<div class="facts_items">
+	  			<div style="height: 160px"></div>
+				<div class="facts_items_txt">
+					<div class="heads_area">
+						<img class="facts_slider_heads_top" src="img/3.png" alt="">
+					</div>
+					<div class="number_and_txt">
+						<div>
+							<img src="img/number_fact_3.png" alt="">
+						</div>
+						<div>
+							<p>языка. Paymon доступен на двух языках, но мы активно развиваемся и работаем над достижением максимального комфорта для наших пользователей по всему миру.</p>
+						</div>
+					</div>
+					<div class="heads_area">
+						<img class="facts_slider_heads_bot" src="img/3.png" alt="">
+					</div>
+				</div>		
+	  		</div>
+	  		<div class="facts_items">
+	  			<div style="height: 160px"></div>
+				<div class="facts_items_txt">
+					<div class="heads_area">
+						<img class="facts_slider_heads_top" src="img/4.png" alt="">
+					</div>
+					<div class="number_and_txt">
+						<div>
+							<img src="img/number_fact_4.png" alt="">
+						</div>
+						<div>
+							<p>$ Pre ICO. Нас поддержал сингапурский фонд FinShi Capital.</p>
+						</div>
+					</div>
+					<div class="heads_area">
+						<img class="facts_slider_heads_bot" src="img/4.png" alt="">
+					</div>
+				</div>		
+	  		</div>
+	  		<div class="facts_items">
+	  			<div style="height: 160px"></div>
+				<div class="facts_items_txt">
+					<div class="heads_area">
+						<img class="facts_slider_heads_top" src="img/5.png" alt="">
+					</div>
+					<div class="number_and_txt">
+						<div>
+							<img src="img/number_fact_5.png" alt="">
+						</div>
+						<div>
+							<p>пользователей. Присоединяйтесь и Вы!</p>
+						</div>
+					</div>
+					<div class="heads_area">
+						<img class="facts_slider_heads_bot" src="img/5.png" alt="">
+					</div>
+				</div>		
+	  		</div>
+		</div>
+	</div>
+</section>-->
+<!--P_R_O_G_R_E_S-->
+<section class="progres">
+	<div class="porogres_area">
+		<div class="progres_line">
+			<p class="progres_line_500">500.000$</p>
+			<div class="progres_info">
+				<div>
+					<p class="progres_info_txt">Результат <br> пре ico</p>
+				</div>
+				<div>
+					<p class="progres_info_txt">Старт</p>
+					<span style="padding-top: 5px" class="progres_info_transparent_txt">02.02.2018</span>
+				</div>
+				<div>
+					<p class="progres_info_ico_txt">ICO</p>
+				</div>
+			</div>
+		</div>		
+	</div>
+</section>
+<!--V_I_D_E_O-->
+	<section class="video">
+		<h1 class="video_title_h">watch our video</h1>
+		<img class="video_center_line" src="img/line.png" alt="underline">
+		<a class="popup-content" href="#video_lightbox"><img class="video_img" src="img/video.png" alt="video"></a>
+
+		<div class="hidden">
+			<div id="video_lightbox">
+				<iframe volume="0" class="video_video" width="60%" height="420" src="https://www.youtube.com/embed/rgKYukitF9c?autoplay=1;mute=1;rel=0&amp;showinfo=0&color=white;theme=dark" frameborder="0" allowfullscreen ></iframe>
+			</div>
+		</div>
+	 </section>
+<!--A_B_O_U_T-->
+<section class="hive">
+	<div class="hive_area">
+		<div class="hive_img_area">
+			<img src="img/hive_picture.png" alt="">
+		</div>
+		<div class="hive_txt_area">
+			<h1>Hive</h1>
+			<p><img src="img/hive_octagon.png" alt="">Это ориентированный ациклический граф, на базе которого будут работать криптовалюта. «Hive» дает возможность осуществлять переводы без комиссий, а также без долгого ожидания подтверждения транзакций.</p>
+			<h1>Плюсы</h1>
+			<p><img src="img/hive_octagon.png" alt="">Майнер = пользователь сети;</p>
+			<p><img src="img/hive_octagon.png" alt="">Высокая скорость транзакций независимо от нагрузки сети;</p>
+			<p><img src="img/hive_octagon.png" alt="">Отсутствие комиссий;</p>
+			<p><img src="img/hive_octagon.png" alt="">1-2 транзакции = отдельный блок;</p>
+			<h1>Что вы сможете делать с Hive</h1>
+			<p><img src="img/hive_octagon.png" alt="">Продать Token Sale</p>
+			<p><img src="img/hive_octagon.png" alt="">Cоздавать бизнес и принимать оплату за товар мгновенно и без комиссии</p>
+			<p><img src="img/hive_octagon.png" alt="">Интегрировать Hive через Api под свои нужды</p>
+			
+		</div>	
+	</div>
+</section>
+<!--H_I_V_E-->
+	<section class="about">
+		<div  class="wrap_to_about_slider">
+			<div data-width="1000" data-height="545" data-autoplay="5000" data-keyboard="true" data-loop="true" class="fotorama">
+		  		<div class="about_items">
+		  			<div style="height: 160px"></div>
+					<div class="about_items_txt">
+						<img class="about_slider_heads_top" src="img/head_blockchain.png" alt="">
+						<h1>HIVE - NEW TECHNOLOGY</h1>
+						<p>Instead of the standard Blockchain we have a DAG (Directed Acyclic Graph). Its edge set is formed as follows: when it receives a new transaction, it must approve two previous transactions by solving a cryptographic puzzle similar to the one that is contained in the bitcoin-miner.</p>
+						<a class="popup-content" href="#hive">more</a>
+						<div class="hidden">
+							<div id="hive"></div>
+						</div>
+					</div>		
+		  		</div>
+		  		<div class="about_items">
+		  			<div style="height: 160px"></div>
+					<div class="about_items_txt">
+						<img class="about_slider_heads_top" src="img/head_POM.png" alt="">
+						<h1>POM - Proof of Me</h1>
+						<p>POM - user identification principle based on POW (Proof of Work) and a rating system within the network.</p>
+						<a class="popup-content" href="#pom">more</a>
+						<div class="hidden">
+							<div id="pom"></div>
+						</div>
+					</div>		
+		  		</div>
+		  		<div class="about_items">
+		  			<div style="height: 160px"></div>
+					<div class="about_items_txt">
+						<img class="about_slider_heads_top" src="img/head_dogovor.png" alt="">
+						<h1>LEGAL SUPPORT</h1>
+						<p>Nowadays there are a lot of scam projects, so it is important to provide all of the ICO participants with some guarantees and protection.</p>
+						<a class="popup-content" href="#legal">more</a>
+						<div class="hidden">
+							<div id="legal"></div>
+						</div>	
+					</div>
+		  		</div>
+		  		<div class="about_items">
+		  			<div style="height: 160px"></div>
+					<div class="about_items_txt">
+						<img class="about_slider_heads_top" src="img/head_smart.png" alt="">
+						<h1>Exchange and purchase. <br> Smart Contracts and Atomic Swap</h1>
+						<p>Smart Contracts are used when fiat currency is converted to cryptocurrency.</p>
+						<p>Atomic Swap is used to exchange one cryptocurrency for another.</p>
+						<a class="popup-content" href="#smart">more</a>
+						<div class="hidden">
+							<div id="smart"></div>
+						</div>
+					</div>		
+		  		</div>
+		  		<div class="about_items">
+		  			<div style="height: 160px"></div>
+					<div class="about_items_txt">
+						<img class="about_slider_heads_top" src="img/head_profit.png" alt="">
+						<h1>Profit - a platform for business</h1>
+						<p>Profit is a platform where any business owner can create his own company and receive payments for his goods or services in cryptocurrency.</p>
+						<a class="popup-content" href="#profit">more</a>
+						<div class="hidden">
+							<div id="profit"></div>
+						</div>
+					</div>		
+		  		</div>
+			</div>
+		</div>
+		<img style="width: 100%; margin-bottom: -5px;" src="img/deg_grey.png" alt="">
+	</section>
+<!--R_O_A_D_M_A_P-->
+  <section id="content-1" class=" content horizontal-images">
+  	<div class="road_map_scroll_area" id="port">
+  		<img src="img/road_map/roadmap_stages.png" class="road_map_stages"  alt="road_map_stages">
+  	   <img class="road_map_bg parallax-layer" src="img/road_map/Road_map_bg-min.jpg" alt="road_mp_back_ground">
+  	    <!--<img class="stage_start " src="img/road_map/start-min.png" alt="stages">-->
+		<h1 class="stage_start_title">20.10.2016 <br> старт paymon</h1>
+		<!--<img class="stage_android " src="img/road_map/android-min.png" alt="stages">-->
+		<h1 class="stage_android_title">01.07.2017 <br> Запуск mvp Android</h1>
+		<!--<img class="stage_first-round" src="img/road_map/first_round-min.png" alt="stages">-->
+  	    <h1 class="stage_first-round_title">05.2017 <br> Первые инвестиции</h1>
+  	    <!--<img class="stage_ios" src="img/road_map/apple-min.png" alt="stages">-->
+  	    <h1 class="stage_ios_title">15.11.2017 <br> Запуск mvp iOS</h1>
+  	    <!--<img class="stage_round500" src="img/road_map/round_500-min.png" alt="stages">-->
+  	    <h1 class="stage_round500_title">12.2017 <br> Привлекли 500 000$ от <br> Finshi Capital</h1>
+  	    <!--<img class="stage_personal-account" src="img/road_map/personal_acount-min.png" alt="stages">-->
+  	    <h1 class="stage_personal-account_title">27.12.2017 <br> Личный кабинет</h1>
+  	    <!--<img class="stage_legal" src="img/road_map/legal-min.png" alt="stages">-->
+  	    <h1 class="stage_legal_title">02.02.18 <br> Юридическая <br> поддержка</h1>
+  	    <!--<img class="stage_ico" src="img/road_map/start_ico-min.png" alt="stages">-->
+  	    <h1 class="stage_ico_title">02.02.18 <br> Старт ICO</h1>
+							<!--I STAGE-->	
+		<h1 class="stage_I_title_top">I Этап</h1>
+		<h1 class="stage_I_title_bot">02.02.2018 - 05.03.2018</h1>
+  	    <!--<img class="stage_hife" src="img/road_map/blockchain_2.0-min.png" alt="stages">-->
+  	    <h1 class="stage_hife_title">Новая blockchain <br> технология - hive</h1>
+  	    <!--<img class="stage_profite" src="img/road_map/profit-min.png" alt="stages">-->
+  	    <h1 class="stage_profite_title">Бизнес система <br> Paymon - Profit</h1>
+  	    <!--<img class="stage_web" src="img/road_map/web-min.png" alt="stages">-->
+  	    <h1 class="stage_web_title">Создание <br> web версии</h1>
+		<!--<img class="stage_smart" src="img/road_map/smart_2.0-min.png" alt="">-->
+		<h1 class="stage_smart_title">Работа <br> Smart-контрактов <br> и Atomic-swap</h1>
+  	    <!--<img class="stage_token-ement" src="img/road_map/token_ement-min.png" alt="stages">-->
+  	    <h1 class="stage_token-ement_title">05.03.2018 - 08.03.2018 <br> конец I этапа <br> выдача токенов</h1>
+  	    <!--<img class="stage_token-exchange" src="img/road_map/token_exchange.png" alt="stages">-->
+  	    <h1 class="stage_token-exchange_title">2й квартал 2018 <br> Выпуск токенов на биржи</h1>
+  	    					<!--II STAGE-->	
+		<h1 class="stage_II_title_top">II Этап</h1>
+		<h1 class="stage_II_title_bot">30.03.2018</h1>
+  	    <!--<img class="stage_card" src="img/road_map/card-min.png" alt="stages">-->
+  	    <h1 class="stage_card_title">Подготовка и <br> выпуск пластиковых карт <br> Visa и Master Card</h1>
+  	    <!--<img class="stage_smart_ico" src="img/road_map/smart_ico-min.png" alt="stages">-->
+  	    <h1 class="stage_smart_ico_title">Разработка <br> Smart-контрактов <br> для проведения ICO</h1>
+  	    <h1 class="stage_II_end_top">Конец <br> II этапа</h1>
+  	    <h1 class="stage_II_end_bot">03.05.2018</h1>
+  	    <!--<img class="stage_card-delivering" src="img/road_map/card_delivering-min.png" alt="stages">-->
+  	    <h1 class="stage_card-delivering_title">Доставка карт <br> Paymon</h1>
+							<!--III STAGE-->	
+		<h1 class="stage_III_top">III Этап</h1>
+		<h1 class="stage_III_bot">10.05.2018</h1>
+  	    <!--<img class="stage_api" src="img/road_map/api-min.png" alt="stages">-->
+  	    <h1 class="stage_api_title">Разрботка API - HIVE</h1>
+  	    <!--<img class="stage_ico-end" src="img/road_map/ico_end-min.png" alt="stages">-->
+  	    <h1 class="stage_ico-end_title">13.06.2018 <br> конец ICO Paymon</h1>
+  	</div>
+  </section>
+
+  <section class="documents">
+  	<div class="documents_area">
+  		<div class="document_items">
+  			<img src="img/White_Paper.jpg" alt="">
+  			<a href="" class="documents_btn">White Paper</a>
+  		</div>
+  		<div class="document_items">
+  			<img src="img/White_Paper.jpg" alt="">
+  			<a href="" class="documents_btn">White Paper</a>
+  		</div>
+  		<div class="document_items">
+  			<img src="img/White_Paper.jpg" alt="">
+  			<a href="" class="documents_btn">White Paper</a>
+  		</div>
+  	</div>
+  </section>
+<!--S_A_L_E-->
+<div style="background-color: #fff">
+	<img style="width: 100%; transform: scale(-1, -1); margin-top: -1px" src="img/deg_grey.png" alt="deg">
+</div>
+<section class="sale">
+	<div class="sale_wrap">
+		<img class="sale_info_bg_top" src="img/bg_on_whit_left_top.png" alt="">
+		<img class="sale_info_bg_bot" src="img/bg_on_white_right_bot.png" alt="">
+		<div class="sale_info">
+			<h1>Limited private pre-sale</h1>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas accusamus nisi, totam iusto molestias dolore quo reiciendis quod numquam fugit aspernatur voluptates error provident explicabo perspiciatis quasi! Reiciendis esse, voluptatem aperiam minus! Ab culpa at ipsa quisquam perspiciatis distinctio saepe ex accusantium eos corporis expedita error non placeat deleniti illum tenetur commodi cupiditate eligendi, adipisci sint praesentium? Odit sequi ratione distinctio unde, neque nostrum quaerat molestiae. Ipsam quisquam quod, quibusdam sapiente, iste autem voluptas quidem asperiores, deleniti non voluptates repellat officiis quo hic consectetur velit delectus soluta necessitatibus reiciendis? Mollitia eaque illo maxime impedit, perferendis in magni officia enim reprehenderit.</p>
+		</div>
+		<div class="sale_progres_wrap">
+			<h1>Sale</h1>
+			<div class="sale_progres">
+				<div class="sale_progres_img_area">
+					<p>ico <br> 02.02.18 - 07.02.18</p>
+					<img src="img/sale_progresbar_1.png" alt="">
+				</div>
+				<div class="sale_progres_img_area">
+					<p>ico <br> 08.02.18 - 14.02.18</p>
+					<img src="img/sale_progresbar_2.png" alt="">
+				</div>
+				<div class="sale_progres_img_area">
+					<p>ico <br> 05.02.18 - 21.02.18</p>
+					<img src="img/sale_progresbar_3.png" alt="">
+				</div>
+				<div class="sale_progres_img_area">
+					<p>ico <br> 22.02.18 - 05.03.18</p>
+					<img src="img/sale_progresbar_4.png" alt="">
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!--A-P-P-S-->
+<section class="apps">
+	<div class="apps_phone_area">
+		<div class="circle"></div>
+		<div class="circle2"></div>
+		<div class="circle3"></div>
+		<div class="circle4"></div>
+		<div class="circle5"></div>
+		<div class="circle6"></div>
+		<div class="circle7"></div>
+		<div class="circle8"></div>
+		<div class="circle9"></div>
+		<div class="circle10"></div>
+		<img src="img/Apps_bg.png" alt="">
+		<img class="apps_phone"  src="img/Apps_phone.png" alt="">
+	</div>
+	<div class="apps_area">
+		<div></div>
+		<div>
+			<a href="#">
+				<img src="img/Apps_aple.png" alt="">
+			</a>
+		</div>
+		<div></div>
+		<div>
+			<a href="#">
+				<img src="img/Apps_google.png" alt="">
+			</a>
+		</div>
+		<div></div>
+	</div>
+
+	<div class="apps_text_area">
+		<p>Paymon already has several thousands of users exchanging cryptocurrency with each other. Try it out yourself!</p>
+	</div>
+</section>
+<!--T_E_A_M-->
+<section class="team">
+	<img class="team_head" src="img/Team/team_head.png" alt="">
+	<h1 class="team_title" style="background-color: #323232">team</h1>
+	<div class="team_center_line_area" style="background-color: #323232">
+		<img class="team_center_line" src="img/line.png" alt="">
+	</div>
+	<div class="team_area" id="team">
+		<a href="#gleim" class="team_area_items popup-content">
+			<img src="img/Team/Team_Gleim.png" alt="">
+			<div class="team_photo_border_area">
+				<img class="team_photo_border" src="img/Team/Team_border_Gleim.png" alt="">
+			</div>
+			<h1>SEMEN <br> GLEIM</h1>
+			<p>Co-founder & CEO</p>
+			<div class="hidden">
+				<div id="gleim">
+					<div class="team_area_items">
+						<img src="img/Team/Team_Gleim.png" alt="">
+						<div class="team_photo_border_area">
+							<img class="team_photo_border" src="img/Team/Team_border_Gleim.png" alt="">
+						</div>
+						<h1>Semen <br> Gleim</h1>
+						<p>Co-founder & CEO</p>
+					</div>
+				</div>
+			</div>
+		</a>
+		<a href="#markushin" class="team_area_items popup-content">
+			<img src="img/Team/Team_Markushin.png" alt="">
+			<div class="team_photo_border_area">
+				<img class="team_photo_border" src="img/Team/Team_border_Markushin.png" alt="">
+			</div>
+			<h1>MAKRUSHIN <br> VLADISLAV</h1>
+			<p>Lead Developer, Blockchain Specialist, Android and iOS Developer</p>
+			<div class="hidden">
+				<div id="markushin">
+					<div class="team_area_items">
+						<img src="img/Team/Team_Markushin.png" alt="">
+						<div class="team_photo_border_area">
+							<img class="team_photo_border" src="img/Team/Team_border_Markushin.png" alt="">
+						</div>
+						<h1>MAKRUSHIN <br> VLADISLAV</h1>
+						<p>Lead Developer, Blockchain Specialist, Android and iOS Developer</p>
+					</div>
+				</div>
+			</div>
+		</a>
+		<a href="#skorinin" class="team_area_items popup-content">
+			<img src="img/Team/Team_Skorinin.png" alt="">
+			<div class="team_photo_border_area">
+				<img class="team_photo_border" src="img/Team/Team_boreder_Skorynin.png" alt="">
+			</div>
+			<h1>SKORYNIN <br> MAKSIM</h1>
+			<p>Lead Developer, Android and iOS Specialist</p>
+			<div class="hidden">
+				<div id="skorinin">
+					<div class="team_area_items">
+						<img src="img/Team/Team_Skorinin.png" alt="">
+						<div class="team_photo_border_area">
+							<img class="team_photo_border" src="img/Team/Team_boreder_Skorynin.png" alt="">
+						</div>
+						<h1>SKORYNIN <br> MAKSIM</h1>
+						<p>Lead Developer, Android and iOS Specialist</p>
+					</div>
+				</div>
+			</div>
+		</a>
+		<a href="#poskrebishev" class="team_area_items popup-content">
+			<img src="img/Team/Team_Poskrebishev.png" alt="">
+			<div class="team_photo_border_area">
+				<img class="team_photo_border" src="img/Team/Team_border_Poskrebishev.png" alt="">
+			</div>
+			<h1>KONSTANTIN <br> POSKRYOBISHEV</h1>
+			<p>Co-founder, Lead Developer, Blockchain Specialist</p>
+			<div class="hidden">
+				<div id="poskrebishev">
+					<div class="team_area_items">
+						<img src="img/Team/Team_Poskrebishev.png" alt="">
+						<div class="team_photo_border_area">
+							<img class="team_photo_border" src="img/Team/Team_border_Poskrebishev.png" alt="">
+						</div>
+						<h1>KONSTANTIN <br> POSKRYOBISHEV</h1>
+						<p>Co-founder, Lead Developer, Blockchain Specialist</p>
+					</div>
+				</div>
+			</div>
+		</a>
+		<a href="#stefanidi" class="team_area_items popup-content">
+			<img src="img/Team/Team_Stefanidi.png" alt="">
+			<div class="team_photo_border_area">
+				<img class="team_photo_border" src="img/Team/Team_boreder_Stefanidi.png" alt="">
+			</div>
+			<h1>ILYA <br> STEFANIDI</h1>
+			<p>Android developer</p>
+			<div class="hidden">
+				<div id="stefanidi">
+					<div class="team_area_items">
+						<img src="img/Team/Team_Stefanidi.png" alt="">
+						<div class="team_photo_border_area">
+							<img class="team_photo_border" src="img/Team/Team_boreder_Stefanidi.png" alt="">
+						</div>
+						<h1>ILYA <br> STEFANIDI</h1>
+						<p>Android developer</p>
+					</div>
+				</div>
+			</div>
+		</a>
+		<a href="#pomelov" class="team_area_items popup-content">
+			<img src="img/Team/Team_Pomelov.png" alt="">
+			<div class="team_photo_border_area">
+				<img class="team_photo_border" src="img/Team/Team_border_Pomelov.png" alt="">
+			</div>
+			<h1>POMELOV <br> SERGEY</h1>
+			<p>Product Designer</p>
+			<div class="hidden">
+				<div id="pomelov">
+					<div class="team_area_items">
+						<img src="img/Team/Team_Pomelov.png" alt="">
+						<div class="team_photo_border_area">
+							<img class="team_photo_border" src="img/Team/Team_border_Pomelov.png" alt="">
+						</div>
+						<h1>POMELOV <br> SERGEY</h1>
+						<p>Product Designer</p>
+					</div>
+				</div>
+			</div>
+		</a>
+		<a href="#pakhomov" class="team_area_items popup-content">
+			<img src="img/Team/Team_Pakhomov.png" alt="">
+			<div class="team_photo_border_area">
+				<img class="team_photo_border" src="img/Team/Team_border_Pakomov.png" alt="">
+			</div>
+			<h1>PAKHOMOV <br> MAKSIM</h1>
+			<p>Web version Developer</p>
+			<div class="hidden">
+				<div id="pakhomov">
+					<div class="team_area_items">
+						<img src="img/Team/Team_Pakhomov.png" alt="">
+						<div class="team_photo_border_area">
+							<img class="team_photo_border" src="img/Team/Team_border_Pakomov.png" alt="">
+						</div>
+						<h1>PAKHOMOV <br> MAKSIM</h1>
+						<p>Web version Developer</p>
+					</div>
+				</div>
+			</div>
+		</a>
+		<a href="#babaylov" class="team_area_items popup-content">
+			<img src="img/Team/Team_Babailov.png" alt="">
+			<div class="team_photo_border_area">
+				<img class="team_photo_border" src="img/Team/Team_border_Babailov.png" alt="">
+			</div>
+			<h1>IVAN <br> BABAYLOV</h1>
+			<p>Chief Marketing Officer</p>
+			<div class="hidden">
+				<div id="babaylov">
+					<div class="team_area_items">
+						<img src="img/Team/Team_Babailov.png" alt="">
+						<div class="team_photo_border_area">
+							<img class="team_photo_border" src="img/Team/Team_border_Babailov.png" alt="">
+						</div>
+						<h1>IVAN <br> BABAYLOV</h1>
+						<p>Chief Marketing Officer</p>
+					</div>
+				</div>
+			</div>
+		</a>
+		<a href="#lenchevski" class="team_area_items popup-content">
+			<img src="img/Team/Team_Lenchevskii.png" alt="">
+			<div class="team_photo_border_area">
+				<img class="team_photo_border" src="img/Team/Team_border_Lenchevskii.png" alt="">
+			</div>
+			<h1>NIKITA <br> LENCHEVSKII</h1>
+			<p>Lead Marketing Specialist</p>
+			<div class="hidden">
+				<div id="lenchevski">
+					<div class="team_area_items">
+						<img src="img/Team/Team_Lenchevskii.png" alt="">
+						<div class="team_photo_border_area">
+							<img class="team_photo_border" src="img/Team/Team_border_Lenchevskii.png" alt="">
+						</div>
+						<h1>NIKITA <br> LENCHEVSKII</h1>
+						<p>Lead Marketing Specialist</p>
+					</div>
+				</div>
+			</div>
+		</a>
+		<a href="#kondratev" class="team_area_items popup-content">
+			<img src="img/Team/Team_Kondratev.png" alt="">
+			<div class="team_photo_border_area">
+				<img class="team_photo_border" src="img/Team/Team_border_Kondratev.png" alt="">
+			</div>
+			<h1>YAROSLAV <br> KONDRATEV</h1>
+			<p>Marketing Manager</p>
+			<div class="hidden">
+				<div id="kondratev">
+					<div class="team_area_items">
+						<img src="img/Team/Team_Kondratev.png" alt="">
+						<div class="team_photo_border_area">
+							<img class="team_photo_border" src="img/Team/Team_border_Kondratev.png" alt="">
+						</div>
+						<h1>YAROSLAV <br> KONDRATEV</h1>
+						<p>Marketing Manager</p>
+					</div>
+				</div>
+			</div>
+		</a>
+		<a href="#hasiahmetov" class="team_area_items popup-content">
+			<img src="img/Team/Team_Haziahmetov.png" alt="">
+			<div class="team_photo_border_area">
+				<img class="team_photo_border" src="img/Team/Team_boreder_Haziahmetow.png" alt="">
+			</div>
+			<h1>DENIS <br> Hasiahmetov</h1>
+			<p>Marketing Manager</p>
+			<div class="hidden">
+				<div id="hasiahmetov">
+					<div class="team_area_items">
+						<img src="img/Team/Team_Haziahmetov.png" alt="">
+						<div class="team_photo_border_area">
+							<img class="team_photo_border" src="img/Team/Team_boreder_Haziahmetow.png" alt="">
+						</div>
+						<h1>DENIS <br> Hasiahmetov</h1>
+						<p>Marketing Manager</p>
+					</div>
+				</div>
+			</div>
+		</a>
+		<a href="#new" class="team_area_items popup-content">
+			<img src="img/Team/Team_New.png" alt="">
+			<div class="team_photo_border_area">
+				<img class="team_photo_border" src="img/Team/Team_border_New.png" alt="">
+			</div>
+			<div class="hidden">
+				<div id="new">
+					<div class="team_area_items">
+						<img src="img/Team/Team_New.png" alt="">
+						<div class="team_photo_border_area">
+							<img class="team_photo_border" src="img/Team/Team_border_New.png" alt="">
+						</div>
+						<p></p>
+					</div>
+				</div>
+			</div>
+		</a>
+	</div>
+	<h1 class="team_title">advisors</h1>
+	<div class="team_center_line_area">
+		<img class="team_center_line" src="img/line.png" alt="">
+	</div>
+	<div class="team_area" id="advisors">
+		<a href="#orlov" class="team_area_items popup-content">
+			<img src="img/Team/Team_Orlov.png" alt="">
+			<div class="team_photo_border_area">
+				<img class="team_photo_border" src="img/Team/Team_boreder_Orlov.png" alt="">
+			</div>
+			<h1>ANDREY <br> ORLOV</h1>
+			<p>Co-founder of FinShi Capital and Capinvest 21 <br> Russia</p>
+			<div class="hidden">
+				<div id="orlov">
+					<div class="team_area_items">
+						<img src="img/Team/Team_Orlov.png" alt="">
+						<div class="team_photo_border_area">
+							<img class="team_photo_border" src="img/Team/Team_boreder_Orlov.png" alt="">
+						</div>
+						<h1>ANDREY <br> ORLOV</h1>
+						<p>Co-founder of FinShi Capital and Capinvest 21 <br> Russia</p>
+					</div>
+				</div>
+			</div>
+		</a>
+		<a href="#sorokin" class="team_area_items popup-content">
+			<img src="img/Team/Team_Sorokin.png" alt="">
+			<div class="team_photo_border_area">
+				<img class="team_photo_border" src="img/Team/Team_boreder_Sorokin.png" alt="">
+			</div>
+			<h1>VYACHESLAV <br> SOROKIN</h1>
+			<p>Co-founder of FinShi Capital and Capinvest 21 <br> Russia</p>
+			<div class="hidden">
+				<div id="sorokin">
+					<div class="team_area_items">
+						<img src="img/Team/Team_Sorokin.png" alt="">
+						<div class="team_photo_border_area">
+							<img class="team_photo_border" src="img/Team/Team_boreder_Sorokin.png" alt="">
+						</div>
+						<h1>VYACHESLAV <br> SOROKIN</h1>
+						<p>Co-founder of FinShi Capital and Capinvest 21 <br> Russia</p>
+					</div>
+				</div>
+			</div>
+		</a>
+		<a href="#besedin" class="team_area_items popup-content">
+			<img src="img/Team/Team_Besedin.png" alt="">
+			<div class="team_photo_border_area">
+				<img class="team_photo_border" src="img/Team/Team_boreder_Besedin.png" alt="">
+			</div>
+			<h1>SERGEY  <br> BESEDIN</h1>
+			<p>Founder of Blockchain Association in Russia, CEO of DES <br> Russia</p>
+			<div class="hidden">
+				<div id="besedin">
+					<div class="team_area_items">
+						<img src="img/Team/Team_Besedin.png" alt="">
+						<div class="team_photo_border_area">
+							<img class="team_photo_border" src="img/Team/Team_boreder_Besedin.png" alt="">
+						</div>
+						<h1>SERGEY  <br> BESEDIN</h1>
+						<p>Founder of Blockchain Association in Russia, CEO of DES <br> Russia</p>
+					</div>
+				</div>
+			</div>
+		</a>
+		<a href="#hossain" class="team_area_items popup-content">
+			<img src="img/Team/Team_Hossain.png" alt="">
+			<div class="team_photo_border_area">
+				<img class="team_photo_border" src="img/Team/Team_boreder_Hossain.png" alt="">
+			</div>
+			<h1>MOFASSAIR <br> HOSSAIN</h1>
+			<p>Entrepreneur, Humaniq ambassador from Bangladesh <br> Bangladesh</p>
+			<div class="hidden">
+				<div id="hossain">
+					<div class="team_area_items">
+						<img src="img/Team/Team_Hossain.png" alt="">
+						<div class="team_photo_border_area">
+							<img class="team_photo_border" src="img/Team/Team_boreder_Hossain.png" alt="">
+						</div>
+						<h1>MOFASSAIR <br> HOSSAIN</h1>
+						<p>Entrepreneur, Humaniq ambassador from Bangladesh <br> Bangladesh</p>
+					</div>
+				</div>
+			</div>
+		</a>
+		<a href="#saavenin" class="team_area_items popup-content">
+			<img src="img/Team/Team_Savenin.png" alt="">
+			<div class="team_photo_border_area">
+				<img class="team_photo_border" src="img/Team/Team_boreder_Savenin.png" alt="">
+			</div>
+			<h1>DENISS <br> SAAVINEEN</h1>
+			<p>14 years in business development, advises IT company management. Representative of Paimon in Europe <br> Estonia</p>
+			<div class="hidden">
+				<div id="saavenin">
+					<div class="team_area_items">
+						<img src="img/Team/Team_Savenin.png" alt="">
+						<div class="team_photo_border_area">
+							<img class="team_photo_border" src="img/Team/Team_boreder_Savenin.png" alt="">
+						</div>
+						<h1>DENISS <br> SAAVINEEN</h1>
+						<p>14 years in business development, advises IT company management. Representative of Paimon in Europe <br> Estonia</p>
+					</div>
+				</div>
+			</div>
+		</a>
+		<a href="#new" class="team_area_items popup-content">
+			<img src="img/Team/Team_New.png" alt="">
+			<div class="team_photo_border_area">
+				<img class="team_photo_border" src="img/Team/Team_border_New.png" alt="">
+			</div>
+		</a>
+	</div>
+	<img class="team_footer" src="img/Team/team_footer.png" alt="">
+</section>
+
+<section class="subscribe">
+	<h1>SUBSCRIBE FOR NEWS</h1>
+	<img class="team_center_line" src="img/line.png" alt="">
+	<p>Subscribe to the news and get the opportunity to participate in the closed test of our new platform!</p>
+			<div class="" style="margin: 0px auto;">
+				<form id="form_eng" action="/" method="post">
+	              <input class="main_email" required type="email" name="email" placeholder="Enter your email"><input class="main_submit" type="submit" name="submit" value=".">
+				</form>
+			</div>
+
+			<div class="main_social_area">
+				<a target="blank" href="https://www.facebook.com/ico.paymon.org"><img src="img/MAIN_facebook-min.png" alt=""></a>
+				<a target="blank" href="https://www.instagram.com/paymon_official/"><img src="img/MAIN_instagram-min.png" alt=""></a>
+				<a target="blank" href="https://t.me/paymoneng"><img src="img/MAIN_telegram-min.png" alt=""></a>
+				<a target="blank" href="https://twitter.com/Paymon_official"><img src="img/MAIN_twitter-min.png" alt=""></a>
+				<a target="blank" href="https://bitcointalk.org/index.php?topic=2597720.new#new"><img src="img/MAIN_bitcointalk-min.png" alt=""></a>
+				<a target="blank" href="https://vk.com/public150074332"><img src="img/MAIN-vk.png" alt=""></a>
+				<a target="blank" href="https://www.youtube.com/channel/UCD1CvDVPJgxPBv9bsmpv1ig"><img src="img/MAIN_youtube-min.png" alt=""></a>
+				<a target="blank" href="https://golos.io/@paymonofficial"><img src="img/MAIN_gls.png" alt=""></a>
+				<a target="blank" href="https://medium.com/@Paymon_official"><img src="img/MAIN_medium-min.png" alt=""></a>
+				
+				<!--<a href="https://twitter.com/Paymon_official"><img src="assets/img/MAIN_github-min.png" alt=""></a>-->
+			</div>
+
+			<div class="subcribe_twitter-timeline">
+			  <a class="twitter-timeline" data-width="100%" data-height="500" data-theme="dark" href="https://twitter.com/Paymon_official?ref_src=twsrc%5Etfw">Tweets by Paymon_official</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+			</div>
+</section>
+<!--M_E_D_I_A-->
+<section class="media">
+	<h1>media</h1>
+	<img class="team_center_line" src="img/line.png" alt="">
+	<div class="media_are">
+		<div class="media_area_items">
+			<a href=""><img src="img/media/1.png" alt=""></a>
+		</div>
+		<div class="media_area_items">
+			<a href=""><img src="img/media/2.png" alt=""></a>
+		</div>
+		<div class="media_area_items">
+			<a href=""><img src="img/media/3.png" alt=""></a>
+		</div>
+		<div class="media_area_items">
+			<a href=""><img src="img/media/4.png" alt=""></a>
+		</div>
+		<div class="media_area_items">
+			<a href=""><img src="img/media/5.png" alt=""></a>
+		</div>
+		<div class="media_area_items">
+			<a href=""><img src="img/media/6.png" alt=""></a>
+		</div>
+		<div class="media_area_items">
+			<a href=""><img src="img/media/7.png" alt=""></a>
+		</div>
+		<div class="media_area_items">
+			<a href=""><img src="img/media/8.png" alt=""></a>
+		</div>
+	</div>
+</section>
+<!--F_O_O_T_E_R-->
+	<footer>
+		<div class="footer_column1">
+			<h3>Paymon</h3>
+			<p>Copyright © 2017 Paymon.</p>
+			<p>All rights reserved.</p>
+		</div>
+		<div class="footer_column2">
+			<h3>COMPANY</h3>
+			<a href="terms_and_conditions/"><p>Terms & Conditions</p></a>
+			<a href="privacy_policy/"><p>Privacy Policy</p></a>
+		</div>
+		<div class="footer_column3">
+			<h3>LANGUAGES</h3>
+			<a href="#"><p>English</p></a>
+			<a href="ru/"><p>Russian</p></a>
+		</div>
+		<div class="footer_column4">
+			<h3>CONTACTS</h3>
+			<p>press@paymon.ru</p>
+			<p class="footer_social_area">
+				<a href="https://www.facebook.com/ico.paymon.org"><img src="img/facebook-min.png" alt=""></a>
+				<a href="https://t.me/joinchat/DIQ9e0RBMe_feRsiu9rzkg"><img src="img/telegram-min.png" alt=""></a>
+				<a href="https://twitter.com/Paymon_official"><img src="img/twitter-min.png" alt=""></a>
+			</p>
+			<p class="footer_social_area" style="padding-top: 0px;">
+				<a href="https://www.instagram.com/paymon_official/"><img src="img/instagram-min.png" alt=""></a>
+				<a href="https://www.youtube.com/channel/UCD1CvDVPJgxPBv9bsmpv1ig"><img src="img/youtube-min.png" alt=""></a>
+				<a href="https://medium.com/@Paymon_official"><img src="img/medium-min.png" alt=""></a>
+			</p>
+			<p class="footer_social_area" style="padding-top: 0px;">
+				<a href="https://vk.com/public150074332"><img src="img/vk-min.png" alt=""></a>
+				<a href="https://golos.io/@paymonofficial"><img src="img/gls-min.png" alt=""></a>
+				<a href="https://bitcointalk.org/index.php?topic=2597720.new#new"><img src="img/bitcointalk-min.png" alt=""></a>
+			</p>
+		</div>
+		<div class="footer_column5">
+			<h3>Download</h3>
+			<div class="footer-img-area">
+				<a href="https://itunes.apple.com/us/app/paymon/id1296873367"><img src="img/App store.svg" alt=""></a>
+				<a href="https://play.google.com/store/apps/details?id=ru.paymon.android.release"><img src="img/google play.svg" alt=""></a>
+			</div>
+		</div>
+	</footer>
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script> <!-- 16 KB -->
+<script src="js/particles.min.js"></script>
+<script src="js/common.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/burger.js"></script>
+<script src="js/timer.js"></script>	
+<script>
+  new WOW().init();
+</script>
+<script src="js/magnific.js"></script>
+<script>
+  jQuery(document).ready(function($) {
+    $('.popup-content').magnificPopup({
+        type: 'inline'
+    });
+});
+</script>
+ <script>
+  	!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+</script>
+<script src="js/burger.js"></script>
+<script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+<script>
+	(function($){
+		$(window).on("load",function(){
+			
+			$("#content-1").mCustomScrollbar({
+				axis:"x",
+				advanced:{
+					autoExpandHorizontalScroll:true
+				}
+			});
+			
+			var i=1,
+				imgs=["img1.jpg","img2.jpg","img3.jpg","img4.jpg","img5.jpg","img6.jpg","img7.jpg"];
+			
+			$("a[rel='add-content']").click(function(e){
+				e.preventDefault();
+				var markup="<li id='img-"+i+"-container'><img src='images/"+imgs[i]+"' /></li>";
+				$(".content .mCSB_container ul").append(markup);
+				if(i<imgs.length-1){
+					i++
+				}else{
+					i=0;
+				}
+			});
+			
+			$("a[rel='remove-content']").click(function(e){
+				e.preventDefault();
+				if($(".content .mCSB_container ul li").length<4){return;}
+				i--
+				if(i<0){i=imgs.length-1;}
+				$("#img-"+i+"-container").remove();
+			});
+			
+		});
+	})(jQuery);
+</script>
+</body>
+</html>

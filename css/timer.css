@@ -1,0 +1,142 @@
+.br{
+  display: none;
+}
+#timer{
+  margin: 0px auto;
+  display: block;
+  width: 810px;
+  text-align: center;
+  position: relative;
+  font-family: 'Roboto', sans-serif;
+  word-spacing: -10px;
+}
+.main_timer_items {
+  display: inline-block;
+  line-height: 1;
+  font-size: 40px;
+  text-align: center;
+  width: 200px;
+  padding: 40px 0px 40px 0px;
+  margin: 0px;
+}
+#timer span {
+  display: block;
+  font-size: 15px;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+}
+#days {
+  font-size: 50px;
+  color: #fff;
+}
+#hours {
+  font-size: 50px;
+  color: #fff;
+}
+#minutes {
+  font-size: 50px;
+  color: #fff;
+}
+#seconds {
+  font-size: 50px;
+  color: #fff;
+}
+#item_border1 {
+  position: absolute;
+  left: 38px;
+  bottom: 0px;
+  height: 150px;
+  width: 150px;
+}
+#item_border2 {
+  position: absolute;
+  left:230px;
+  bottom: 0px;
+  height: 150px;
+  width: 150px;
+}
+#item_border3 {
+  position: absolute;
+  right: 230px;
+  bottom: 0px;
+  height: 150px;
+  width: 150px;
+
+}
+#item_border4 {
+  position: absolute;
+  right: 38px;
+  bottom: 0px;
+  height: 150px;
+  width: 150px;
+  animation:second;
+  animation-duration: 1s;
+  animation-timing-function: ease;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+}
+.timer_anim{
+  animation: second;
+  animation-duration: 1s;
+  animation-timing-function: ease;
+  animation-delay: 0s;
+  animation-iteration-count: no-repeat;
+}
+@keyframes second{
+  100% {
+    transform: rotate(60deg);
+    -webkit-filter: drop-shadow(3px 5px 5px #000);
+    filter: drop-shadow(3px 5px 5px #000);
+  }
+}
+@media (min-width:0px) and (max-width:810px){
+.br{
+  display: block;
+}
+#timer{
+    width: 320px;
+}
+.main_timer_items {
+  display: inline-block;
+  line-height: 1;
+  font-size: 10px;
+  text-align: center;
+  width: 150px;
+  padding: 60px 0px 60px 0px;
+  margin: 0px;
+}
+#item_border1 {
+  position: absolute;
+  left: 10px;
+  top: 17px;
+  height: 150px;
+  width: 150px;
+}
+#item_border2 {
+  position: absolute;
+  left:159px;
+  top: 17px;
+  height: 150px;
+  width: 150px;
+}
+#item_border3 {
+  position: absolute;
+  height: 150px;
+  width: 150px;
+  left: 10px;
+  bottom: 17px;
+}
+#item_border4 {
+  position: absolute;
+  left:159px;
+  bottom: 17px;
+  height: 150px;
+  width: 150px;
+  animation:second;
+  animation-duration: 1s;
+  animation-timing-function: ease;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+}
+}
